@@ -1,0 +1,7 @@
+# Weather Data Connector Requirements
+pvlib-python>=0.10.0
+pandas>=1.3.0
+numpy>=1.19.0
+python-dotenv>=0.19.0
+pyarrow>=5.0.0  # For parquet caching
+requests>=2.25.0

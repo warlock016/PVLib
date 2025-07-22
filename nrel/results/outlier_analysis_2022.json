@@ -1,0 +1,574 @@
+{
+  "normal_facilities": 43,
+  "moderate_outliers": 15,
+  "extreme_outliers": 63,
+  "extreme_outlier_details": [
+    {
+      "facility_id": "639841abd9fdab0009696459",
+      "facility_name": "Freimersheim ",
+      "actual_kwh": 7.090000000000002,
+      "predicted_kwh": 12874922.414543243,
+      "percent_difference": 181592599.7819921,
+      "capacity_factor_actual": 7.853372636971128e-06,
+      "capacity_factor_predicted": 14.261151395416096
+    },
+    {
+      "facility_id": "63aad970aa24ea0008decf6b",
+      "facility_name": "Solarpark Markt Indersdorf",
+      "actual_kwh": 2540.9,
+      "predicted_kwh": 1731663.847197176,
+      "percent_difference": 68051.59381310464,
+      "capacity_factor_actual": 0.019845174988065872,
+      "capacity_factor_predicted": 13.52480304936649
+    },
+    {
+      "facility_id": "640b00d6af1d3c0009c3275a",
+      "facility_name": "GER - L\u00fcbeck - Taschenmacherstra\u00dfe 14 - 16",
+      "actual_kwh": 185.54000000000002,
+      "predicted_kwh": 120100.0926082632,
+      "percent_difference": 64630.027276200926,
+      "capacity_factor_actual": 0.017961639498646247,
+      "capacity_factor_predicted": 11.626574146726593
+    },
+    {
+      "facility_id": "625edd2ddf388e0008510b61",
+      "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H1",
+      "actual_kwh": 56.968,
+      "predicted_kwh": 19512.19081150591,
+      "percent_difference": 34151.14241592807,
+      "capacity_factor_actual": 0.07146369612123037,
+      "capacity_factor_predicted": 24.477132334168687
+    },
+    {
+      "facility_id": "625ede1b92216500083e8e49",
+      "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H3",
+      "actual_kwh": 65.452,
+      "predicted_kwh": 20822.71979800886,
+      "percent_difference": 31713.725780738343,
+      "capacity_factor_actual": 0.07184316824727784,
+      "capacity_factor_predicted": 22.85598853838345
+    },
+    {
+      "facility_id": "5ee8c4c1e228fc0007d40d8d",
+      "facility_name": "10003 Singen Friedrich-W\u00f6hler-Gymnasium",
+      "actual_kwh": 97.613,
+      "predicted_kwh": 22689.48523043755,
+      "percent_difference": 23144.32732365315,
+      "capacity_factor_actual": 0.0595247677867541,
+      "capacity_factor_predicted": 13.836131862997568
+    },
+    {
+      "facility_id": "60e8458a25e901000796172a",
+      "facility_name": "Greifenhain_BT2 (Linear)",
+      "actual_kwh": 1073.008,
+      "predicted_kwh": 239704.43454438946,
+      "percent_difference": 22239.482514984924,
+      "capacity_factor_actual": 0.058569583148155496,
+      "capacity_factor_predicted": 13.084141786481753
+    },
+    {
+      "facility_id": "60e83cfe75da360007fb93bf",
+      "facility_name": "Greifenhain_BT5 (Linear)",
+      "actual_kwh": 2636.652,
+      "predicted_kwh": 583956.7330891442,
+      "percent_difference": 22047.660483413976,
+      "capacity_factor_actual": 0.056500163544240256,
+      "capacity_factor_predicted": 12.513464394351967
+    },
+    {
+      "facility_id": "60e847f675da360007fb93e0",
+      "facility_name": "Brattendorf (Soltos 4)",
+      "actual_kwh": 5024.4,
+      "predicted_kwh": 1111889.337664167,
+      "percent_difference": 22029.793361678352,
+      "capacity_factor_actual": 0.05649740384511588,
+      "capacity_factor_predicted": 12.502758725637062
+    },
+    {
+      "facility_id": "60e84204d194e400073e01b2",
+      "facility_name": "Neudorf",
+      "actual_kwh": 2782.964000000001,
+      "predicted_kwh": 612507.2547924188,
+      "percent_difference": 21909.169173313727,
+      "capacity_factor_actual": 0.05996865643648061,
+      "capacity_factor_predicted": 13.198603046068309
+    },
+    {
+      "facility_id": "60f8387e32a5440007988d63",
+      "facility_name": "Schacksdorf",
+      "actual_kwh": 3024.521,
+      "predicted_kwh": 642158.5681199181,
+      "percent_difference": 21131.744402499375,
+      "capacity_factor_actual": 0.05886920678571848,
+      "capacity_factor_predicted": 12.498959516522563
+    },
+    {
+      "facility_id": "60e8431975da360007fb93c9",
+      "facility_name": "Rostock",
+      "actual_kwh": 4525.135,
+      "predicted_kwh": 959552.238050016,
+      "percent_difference": 21104.941687927894,
+      "capacity_factor_actual": 0.06452018065453821,
+      "capacity_factor_predicted": 13.681466684740561
+    },
+    {
+      "facility_id": "60e842ced194e400073e01b4",
+      "facility_name": "Lengenfeld",
+      "actual_kwh": 3285.7610000000004,
+      "predicted_kwh": 695325.4725178157,
+      "percent_difference": 21061.778733079354,
+      "capacity_factor_actual": 0.06577528862458352,
+      "capacity_factor_predicted": 13.919221039778682
+    },
+    {
+      "facility_id": "60e83d83d194e400073e019f",
+      "facility_name": "Soltos 1 - Kempen",
+      "actual_kwh": 3938.133,
+      "predicted_kwh": 820071.8425762393,
+      "percent_difference": 20723.873713158984,
+      "capacity_factor_actual": 0.06506854271874882,
+      "capacity_factor_predicted": 13.549791162745159
+    },
+    {
+      "facility_id": "60f81c8152a9f9000707df7d",
+      "facility_name": "Lichtenau",
+      "actual_kwh": 5006.3089999999975,
+      "predicted_kwh": 1024807.9974909725,
+      "percent_difference": 20370.330486811203,
+      "capacity_factor_actual": 0.06413273945419103,
+      "capacity_factor_predicted": 13.12818371651846
+    },
+    {
+      "facility_id": "60a24e261d401c00074e3b9c",
+      "facility_name": "Altvater Nufringen",
+      "actual_kwh": 879.1,
+      "predicted_kwh": 179743.01709607916,
+      "percent_difference": 20346.25379320659,
+      "capacity_factor_actual": 0.06479460309823012,
+      "capacity_factor_predicted": 13.248068993765033
+    },
+    {
+      "facility_id": "670543e40ebf940008a4815c",
+      "facility_name": "Herbsleben Freifl\u00e4che",
+      "actual_kwh": 10927.095,
+      "predicted_kwh": 2231252.758842054,
+      "percent_difference": 20319.450538702684,
+      "capacity_factor_actual": 0.07195346527299278,
+      "capacity_factor_predicted": 14.69250225230137
+    },
+    {
+      "facility_id": "623862e50359940009c601d7",
+      "facility_name": "PVA06 | Wolfgang-Konrad-Halle",
+      "actual_kwh": 131.074,
+      "predicted_kwh": 26679.608853948805,
+      "percent_difference": 20254.61560183469,
+      "capacity_factor_actual": 0.06632440331616958,
+      "capacity_factor_predicted": 13.500077345216818
+    },
+    {
+      "facility_id": "60e841f375da360007fb93c7",
+      "facility_name": "Neudorf - Engersen",
+      "actual_kwh": 3983.1059999999998,
+      "predicted_kwh": 801786.6491734195,
+      "percent_difference": 20029.683949496182,
+      "capacity_factor_actual": 0.06836452650028937,
+      "capacity_factor_predicted": 13.761563118077817
+    },
+    {
+      "facility_id": "60991c177df5b200077ca227",
+      "facility_name": "PVA Sundheim",
+      "actual_kwh": 3901.66,
+      "predicted_kwh": 769894.7607357777,
+      "percent_difference": 19632.4923426382,
+      "capacity_factor_actual": 0.07079875650436333,
+      "capacity_factor_predicted": 13.970359205906563
+    },
+    {
+      "facility_id": "60e83b8a25e901000796170a",
+      "facility_name": "Greifenhain_BT4 (Linear)",
+      "actual_kwh": 2211.3550000000005,
+      "predicted_kwh": 435868.53594357986,
+      "percent_difference": 19610.473259317467,
+      "capacity_factor_actual": 0.06348559851825263,
+      "capacity_factor_predicted": 12.51331191945783
+    },
+    {
+      "facility_id": "621e35e5d2e6ea0008f923de",
+      "facility_name": "Bp.IV.ker_NVSolar",
+      "actual_kwh": 20.982,
+      "predicted_kwh": 4116.95665271323,
+      "percent_difference": 19521.37380951878,
+      "capacity_factor_actual": 0.06952700956319463,
+      "capacity_factor_predicted": 13.642154444974288
+    },
+    {
+      "facility_id": "625edde75e45680008a0f59e",
+      "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H2",
+      "actual_kwh": 80.281,
+      "predicted_kwh": 15737.617756811838,
+      "percent_difference": 19503.16607517574,
+      "capacity_factor_actual": 0.07230372952185386,
+      "capacity_factor_predicted": 14.173820176714885
+    },
+    {
+      "facility_id": "60e8440375da360007fb93dc",
+      "facility_name": "Soltos 1 - T\u00f6nisvorst",
+      "actual_kwh": 3272.315,
+      "predicted_kwh": 634713.7874918373,
+      "percent_difference": 19296.47581274533,
+      "capacity_factor_actual": 0.06340577288091546,
+      "capacity_factor_predicted": 12.298485400731005
+    },
+    {
+      "facility_id": "60f8362852a9f9000707df87",
+      "facility_name": "Calbe",
+      "actual_kwh": 6196.7,
+      "predicted_kwh": 1174929.3089629537,
+      "percent_difference": 18860.56463864563,
+      "capacity_factor_actual": 0.06977843323359163,
+      "capacity_factor_predicted": 13.230384937089323
+    },
+    {
+      "facility_id": "60e843b925e9010007961728",
+      "facility_name": "Weidenhausen",
+      "actual_kwh": 5391.6,
+      "predicted_kwh": 999078.1480994568,
+      "percent_difference": 18430.27205466757,
+      "capacity_factor_actual": 0.06829781861966051,
+      "capacity_factor_predicted": 12.655771597626497
+    },
+    {
+      "facility_id": "60e8418025e9010007961716",
+      "facility_name": "Goldklee - Zerbst",
+      "actual_kwh": 3563.0000000000005,
+      "predicted_kwh": 659943.2801437058,
+      "percent_difference": 18422.124056797802,
+      "capacity_factor_actual": 0.0759897542862871,
+      "capacity_factor_predicted": 14.074916559361919
+    },
+    {
+      "facility_id": "623ad9aa1bbca900084aa446",
+      "facility_name": "Pferdsfeld",
+      "actual_kwh": 193794.4,
+      "predicted_kwh": 35296632.81608477,
+      "percent_difference": 18113.443121207205,
+      "capacity_factor_actual": 0.07783361503650735,
+      "capacity_factor_predicted": 14.176181203853645
+    },
+    {
+      "facility_id": "60e8390275da360007fb93a7",
+      "facility_name": "Greifenhain_BT1 (Linear)",
+      "actual_kwh": 3021.3489999999997,
+      "predicted_kwh": 547392.3916174927,
+      "percent_difference": 18017.483005686954,
+      "capacity_factor_actual": 0.07221810858408002,
+      "capacity_factor_predicted": 13.084103549749248
+    },
+    {
+      "facility_id": "60e8435275da360007fb93ca",
+      "facility_name": "Goldklee - Magdeburg",
+      "actual_kwh": 4152.8,
+      "predicted_kwh": 740081.4407686049,
+      "percent_difference": 17721.26374418717,
+      "capacity_factor_actual": 0.07330734318993,
+      "capacity_factor_predicted": 13.064294973733858
+    },
+    {
+      "facility_id": "614314951a69ce00071df1f9",
+      "facility_name": "K\u00f6then BF_2",
+      "actual_kwh": 32792.329000000005,
+      "predicted_kwh": 5717433.429017467,
+      "percent_difference": 17335.27710098745,
+      "capacity_factor_actual": 0.07486833105022833,
+      "capacity_factor_predicted": 13.053500979491936
+    },
+    {
+      "facility_id": "620f7c3cb4cb6500072c458d",
+      "facility_name": "PVA Windischleuba WLF",
+      "actual_kwh": 5077.900000000001,
+      "predicted_kwh": 862753.2065024211,
+      "percent_difference": 16890.354408366074,
+      "capacity_factor_actual": 0.07728919330289194,
+      "capacity_factor_predicted": 13.13170786152848
+    },
+    {
+      "facility_id": "60f0372152a9f9000707da3c",
+      "facility_name": "Silbersee/Silverlake 02",
+      "actual_kwh": 6424.120000000001,
+      "predicted_kwh": 1086016.9195939936,
+      "percent_difference": 16805.302509822253,
+      "capacity_factor_actual": 0.07861782075080086,
+      "capacity_factor_predicted": 13.2905804245527
+    },
+    {
+      "facility_id": "60f836dc80b08100072e15b0",
+      "facility_name": "Goldklee - D\u00fcren",
+      "actual_kwh": 2658.6000000000004,
+      "predicted_kwh": 445437.57835767913,
+      "percent_difference": 16654.591828694767,
+      "capacity_factor_actual": 0.07609777611075963,
+      "capacity_factor_predicted": 12.749871778071773
+    },
+    {
+      "facility_id": "60e8467225e901000796172b",
+      "facility_name": "Greifenhain_BT3 (Linear)",
+      "actual_kwh": 2959.806000000001,
+      "predicted_kwh": 493570.0092794058,
+      "percent_difference": 16575.755413679333,
+      "capacity_factor_actual": 0.07547465705994909,
+      "capacity_factor_predicted": 12.585969210630369
+    },
+    {
+      "facility_id": "614338faef9dd10007031304",
+      "facility_name": "K\u00f6then BF_6.2",
+      "actual_kwh": 31276.200000000004,
+      "predicted_kwh": 5215271.881050261,
+      "percent_difference": 16574.889791759422,
+      "capacity_factor_actual": 0.07827981727150679,
+      "capacity_factor_predicted": 13.053073259214415
+    },
+    {
+      "facility_id": "614208a21a69ce00071df1e4",
+      "facility_name": "K\u00f6then BF_3",
+      "actual_kwh": 36628.601,
+      "predicted_kwh": 6087982.495735262,
+      "percent_difference": 16520.84362909537,
+      "capacity_factor_actual": 0.07853769996466418,
+      "capacity_factor_predicted": 13.053628301014921
+    },
+    {
+      "facility_id": "60f0378c6480b10007ef914a",
+      "facility_name": "Silbersee/Silverlake 03",
+      "actual_kwh": 6551.889999999999,
+      "predicted_kwh": 1086016.9195939936,
+      "percent_difference": 16475.628095007603,
+      "capacity_factor_actual": 0.08018145887669666,
+      "capacity_factor_predicted": 13.2905804245527
+    },
+    {
+      "facility_id": "60f5452452a9f9000707de02",
+      "facility_name": "Nakskov 01 (old XII)",
+      "actual_kwh": 3981.13,
+      "predicted_kwh": 649695.9682678409,
+      "percent_difference": 16219.38590972515,
+      "capacity_factor_actual": 0.11361672374429223,
+      "capacity_factor_predicted": 18.54155160581738
+    },
+    {
+      "facility_id": "60f0399f80b08100072e10c5",
+      "facility_name": "Tango (Saltlake) SPV 1",
+      "actual_kwh": 6771.010000000001,
+      "predicted_kwh": 1101096.8003998853,
+      "percent_difference": 16161.928433127187,
+      "capacity_factor_actual": 0.07984982923883922,
+      "capacity_factor_predicted": 12.985122084794302
+    },
+    {
+      "facility_id": "61e9562d718f7c00071cb763",
+      "facility_name": "1 MW Pilotanlage",
+      "actual_kwh": 7906.59,
+      "predicted_kwh": 1277855.2037401705,
+      "percent_difference": 16061.900436726459,
+      "capacity_factor_actual": 0.09025787671232877,
+      "capacity_factor_predicted": 14.587388170549891
+    },
+    {
+      "facility_id": "60f036a952a9f9000707da3b",
+      "facility_name": "Silbersee/Silverlake 01",
+      "actual_kwh": 6502.36,
+      "predicted_kwh": 1033681.9122309091,
+      "percent_difference": 15797.026806127455,
+      "capacity_factor_actual": 0.07957531505282862,
+      "capacity_factor_predicted": 12.65010916500854
+    },
+    {
+      "facility_id": "61433a01ef9dd10007031308",
+      "facility_name": "K\u00f6then BF_10",
+      "actual_kwh": 52338.746999999996,
+      "predicted_kwh": 8058219.988203834,
+      "percent_difference": 15296.279907510652,
+      "capacity_factor_actual": 0.08072885837345194,
+      "capacity_factor_predicted": 12.429241001314512
+    },
+    {
+      "facility_id": "60f837e632a5440007988d62",
+      "facility_name": "Goldklee - Mendez/Dortmund",
+      "actual_kwh": 3188.3999999999996,
+      "predicted_kwh": 487055.3102936808,
+      "percent_difference": 15175.853415308018,
+      "capacity_factor_actual": 0.06986038440301842,
+      "capacity_factor_predicted": 10.6717699167758
+    },
+    {
+      "facility_id": "60f8375352a9f9000707df8a",
+      "facility_name": "Goldklee - Kall",
+      "actual_kwh": 1537.8,
+      "predicted_kwh": 234673.36359909087,
+      "percent_difference": 15160.330576088625,
+      "capacity_factor_actual": 0.08274318684270336,
+      "capacity_factor_predicted": 12.626883841387201
+    },
+    {
+      "facility_id": "61a62bd673f9af0007fcaa5a",
+      "facility_name": "11095 Jessnitz",
+      "actual_kwh": 5176.49,
+      "predicted_kwh": 704519.4949596949,
+      "percent_difference": 13509.984660642538,
+      "capacity_factor_actual": 0.07879085267560035,
+      "capacity_factor_predicted": 10.723422963138669
+    },
+    {
+      "facility_id": "60f543636480b10007ef94be",
+      "facility_name": "Nakskov 06 (old VIII)",
+      "actual_kwh": 3396.283,
+      "predicted_kwh": 459389.49888426746,
+      "percent_difference": 13426.243216017849,
+      "capacity_factor_actual": 0.09692588470319634,
+      "capacity_factor_predicted": 13.110430904231377
+    },
+    {
+      "facility_id": "60e8475425e901000796172e",
+      "facility_name": "Goldklee - Bleicherode",
+      "actual_kwh": 3544.3,
+      "predicted_kwh": 473566.4555256573,
+      "percent_difference": 13261.35359663847,
+      "capacity_factor_actual": 0.07702274064744043,
+      "capacity_factor_predicted": 10.291280727726303
+    },
+    {
+      "facility_id": "60f542f26480b10007ef94bd",
+      "facility_name": "Nakskov 05 (old VII) ",
+      "actual_kwh": 3439.969,
+      "predicted_kwh": 459389.49888426746,
+      "percent_difference": 13254.466243279154,
+      "capacity_factor_actual": 0.09817263127853881,
+      "capacity_factor_predicted": 13.110430904231377
+    },
+    {
+      "facility_id": "60f5456a80b08100072e1465",
+      "facility_name": "Nakskov 02 (old XIII)",
+      "actual_kwh": 3928.3000000000006,
+      "predicted_kwh": 459389.49888426746,
+      "percent_difference": 11594.35885457494,
+      "capacity_factor_actual": 0.1121090182648402,
+      "capacity_factor_predicted": 13.110430904231377
+    },
+    {
+      "facility_id": "60f544a152a9f9000707de01",
+      "facility_name": "Nakskov 04 (old XI)",
+      "actual_kwh": 3985.8099999999995,
+      "predicted_kwh": 459389.49888426746,
+      "percent_difference": 11425.624625465527,
+      "capacity_factor_actual": 0.11375028538812784,
+      "capacity_factor_predicted": 13.110430904231377
+    },
+    {
+      "facility_id": "60f5444280b08100072e1461",
+      "facility_name": "Nakskov 03 (old X)",
+      "actual_kwh": 3995.81,
+      "predicted_kwh": 459389.49888426746,
+      "percent_difference": 11396.780349522813,
+      "capacity_factor_actual": 0.11403567351598173,
+      "capacity_factor_predicted": 13.110430904231377
+    },
+    {
+      "facility_id": "60f543db80b08100072e1460",
+      "facility_name": "Nakskov 07 (old IX)",
+      "actual_kwh": 2972.562,
+      "predicted_kwh": 331030.2829421268,
+      "percent_difference": 11036.194398708147,
+      "capacity_factor_actual": 0.28277796803652966,
+      "capacity_factor_predicted": 31.490704237264726
+    },
+    {
+      "facility_id": "63594062f3b1f30008c4ff73",
+      "facility_name": "M\u00f6ckernkiez G15",
+      "actual_kwh": 538.609999999986,
+      "predicted_kwh": 44204.810556057586,
+      "percent_difference": 8107.201974723592,
+      "capacity_factor_actual": 0.14232675883645834,
+      "capacity_factor_predicted": 11.681044561785892
+    },
+    {
+      "facility_id": "631eebe54cafa4000836a0af",
+      "facility_name": "Werneuchen-B",
+      "actual_kwh": 165711.90833333344,
+      "predicted_kwh": 13354399.658484789,
+      "percent_difference": 7958.805062833564,
+      "capacity_factor_actual": 0.15717859919285307,
+      "capacity_factor_predicted": 12.666716909444517
+    },
+    {
+      "facility_id": "6189108f587f4f0007a6b7d9",
+      "facility_name": "SP Ammelst\u00e4dt",
+      "actual_kwh": 16101.01000000001,
+      "predicted_kwh": 1152237.2213685422,
+      "percent_difference": 7056.30399191443,
+      "capacity_factor_actual": 0.2463397585116065,
+      "capacity_factor_predicted": 17.628821972038462
+    },
+    {
+      "facility_id": "60e83c8575da360007fb93bd",
+      "facility_name": "Dessau",
+      "actual_kwh": 1968.2,
+      "predicted_kwh": 115380.75013922933,
+      "percent_difference": 5762.247238046404,
+      "capacity_factor_actual": 0.07002005899302034,
+      "capacity_factor_predicted": 4.104748974396798
+    },
+    {
+      "facility_id": "63ce84a71367b10008fd254d",
+      "facility_name": "PVA01 | Solmser Stra\u00dfe 8/10",
+      "actual_kwh": 374.35787999999593,
+      "predicted_kwh": 20658.712596957244,
+      "percent_difference": 5418.439359940137,
+      "capacity_factor_actual": 0.24991180004806265,
+      "capacity_factor_predicted": 13.791231138987186
+    },
+    {
+      "facility_id": "63ce8bedaa24ea0008ded59e",
+      "facility_name": "PVA04 | Gerhart-Hauptmann-Stra\u00dfe 8",
+      "actual_kwh": 207.3049170000013,
+      "predicted_kwh": 10704.272000936771,
+      "percent_difference": 5063.539850305,
+      "capacity_factor_actual": 0.265898256887796,
+      "capacity_factor_predicted": 13.729762455667707
+    },
+    {
+      "facility_id": "61485316e93d850007983c46",
+      "facility_name": "K\u00f6nigsbr\u00fcck",
+      "actual_kwh": 312541.7935,
+      "predicted_kwh": 14699961.792192305,
+      "percent_difference": 4603.35875006499,
+      "capacity_factor_actual": 0.29839327352823286,
+      "capacity_factor_predicted": 14.034506140095502
+    },
+    {
+      "facility_id": "631eeb3c4cafa4000836a0ae",
+      "facility_name": "Werneuchen-A",
+      "actual_kwh": 427859.13083333283,
+      "predicted_kwh": 7584589.9244227735,
+      "percent_difference": 1672.6838994064276,
+      "capacity_factor_actual": 0.7145502316394868,
+      "capacity_factor_predicted": 12.666716909444517
+    },
+    {
+      "facility_id": "623390768d486f000826986d",
+      "facility_name": "Bremen Cloud Log",
+      "actual_kwh": 68463.3865545001,
+      "predicted_kwh": 976458.0407143662,
+      "percent_difference": 1326.248524730893,
+      "capacity_factor_actual": 0.813262756100952,
+      "capacity_factor_predicted": 11.59914806107563
+    },
+    {
+      "facility_id": "6389f4ab6e4e5600089a480f",
+      "facility_name": "- PVA Storck in Halle",
+      "actual_kwh": 11588.01245300752,
+      "predicted_kwh": 129431.58727289857,
+      "percent_difference": 1016.9438054867318,
+      "capacity_factor_actual": 0.9822040925189423,
+      "capacity_factor_predicted": 10.970667768627493
+    }
+  ]
+}

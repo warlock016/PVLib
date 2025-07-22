@@ -1,0 +1,3808 @@
+{
+  "validation_metadata": {
+    "year": 2023,
+    "simulation_file": "simulation_results_2023_20250714_170609.json",
+    "total_simulation_facilities": 313,
+    "total_ampere_facilities": 313,
+    "matched_facilities": 187,
+    "validation_timestamp": "2025-07-14T17:54:29.070858"
+  },
+  "annual_energy_validation": {
+    "metric_type": "annual_energy_kwh",
+    "validation_metrics": {
+      "n_points": 187,
+      "mae": 493253533592.8494,
+      "mse": 4.549229500294442e+25,
+      "rmse": 6744797625054.767,
+      "mape": 10603.934788842816,
+      "mean_bias": -493250234146.1102,
+      "percent_bias": -99.99943503769323,
+      "correlation": -0.03345609222178365,
+      "correlation_p_value": 0.6494223391709275,
+      "r2_score": -0.005376874119531694,
+      "nrmse": 13.674113163203465,
+      "nmae": 1.000001039533612,
+      "mean_actual": 493253020839.755,
+      "mean_predicted": 2786693.6448921645,
+      "ratio_predicted_actual": 5.649623067990269e-06
+    },
+    "facility_comparisons": {
+      "60f543db80b08100072e1460": {
+        "facility_name": "Nakskov 07 (old IX)",
+        "actual_kwh": 1160.0620000000001,
+        "predicted_kwh": 331030.2829421268,
+        "difference_kwh": 329870.2209421268,
+        "percent_difference": 28435.56818015992,
+        "reference_yield": 1002.76,
+        "capacity_factor_actual": 0.11035597412480974,
+        "capacity_factor_predicted": 31.490704237264726
+      },
+      "629ef12dfb82e00008a1c33b": {
+        "facility_name": "PVA 342 kWp",
+        "actual_kwh": 92233720621280.81,
+        "predicted_kwh": 387718.3874213775,
+        "difference_kwh": -92233720233562.42,
+        "percent_difference": -99.99999957963487,
+        "reference_yield": 1000.0,
+        "capacity_factor_actual": 3078644310.304708,
+        "capacity_factor_predicted": 12.941546750960558
+      },
+      "61828d23541c180007b61398": {
+        "facility_name": "L\u00fcptitz",
+        "actual_kwh": 398612.69620600156,
+        "predicted_kwh": 13997422.54786629,
+        "difference_kwh": 13598809.851660289,
+        "percent_difference": 3411.5345499764194,
+        "reference_yield": 1064.278,
+        "capacity_factor_actual": 0.4047449332635463,
+        "capacity_factor_predicted": 14.212758170828433
+      },
+      "60990f25b7ba7c00077d7fc4": {
+        "facility_name": "SP Salzwedel",
+        "actual_kwh": 676036.0400000121,
+        "predicted_kwh": 856100.021109661,
+        "difference_kwh": 180063.98110964883,
+        "percent_difference": 26.63526357406117,
+        "reference_yield": 1014.6475099999999,
+        "capacity_factor_actual": 10.343112316478633,
+        "capacity_factor_predicted": 13.0980275437339
+      },
+      "64d2452761cede0009328a6e": {
+        "facility_name": "Kogel BF LE",
+        "actual_kwh": 44847.59999999998,
+        "predicted_kwh": 8855115.175682193,
+        "difference_kwh": 8810267.575682193,
+        "percent_difference": 19644.90312900177,
+        "reference_yield": 1010.184,
+        "capacity_factor_actual": 0.06454600521573446,
+        "capacity_factor_predicted": 12.744546203487198
+      },
+      "60f5444280b08100072e1461": {
+        "facility_name": "Nakskov 03 (old X)",
+        "actual_kwh": 3934.83,
+        "predicted_kwh": 459389.49888426746,
+        "difference_kwh": 455454.66888426745,
+        "percent_difference": 11574.951621398319,
+        "reference_yield": null,
+        "capacity_factor_actual": 0.11229537671232877,
+        "capacity_factor_predicted": 13.110430904231377
+      },
+      "63d23ed1fa95820008db5d0f": {
+        "facility_name": "PVA32 | Jugendzentrum Oberste G\u00e4rten",
+        "actual_kwh": 99.785,
+        "predicted_kwh": 19723.256606359453,
+        "difference_kwh": 19623.471606359453,
+        "percent_difference": 19665.752975256255,
+        "reference_yield": 930.0,
+        "capacity_factor_actual": 0.06509132420091324,
+        "capacity_factor_predicted": 12.865790349875702
+      },
+      "60f0378c6480b10007ef914a": {
+        "facility_name": "Silbersee/Silverlake 03",
+        "actual_kwh": 6435.370000000002,
+        "predicted_kwh": 1086016.9195939936,
+        "difference_kwh": 1079581.5495939935,
+        "percent_difference": 16775.749484396285,
+        "reference_yield": 979.0,
+        "capacity_factor_actual": 0.07875549727045593,
+        "capacity_factor_predicted": 13.2905804245527
+      },
+      "60f544a152a9f9000707de01": {
+        "facility_name": "Nakskov 04 (old XI)",
+        "actual_kwh": 3807.4900000000007,
+        "predicted_kwh": 459389.49888426746,
+        "difference_kwh": 455582.0088842675,
+        "percent_difference": 11965.41576955599,
+        "reference_yield": null,
+        "capacity_factor_actual": 0.10866124429223746,
+        "capacity_factor_predicted": 13.110430904231377
+      },
+      "6089503d5ad7c10007d53da7": {
+        "facility_name": "PVA Reichenauer Wiesen",
+        "actual_kwh": 717209.6999999966,
+        "predicted_kwh": 827551.0781693005,
+        "difference_kwh": 110341.37816930388,
+        "percent_difference": 15.384813976903045,
+        "reference_yield": 1000.0,
+        "capacity_factor_actual": 10.92736115110539,
+        "capacity_factor_predicted": 12.608515336787326
+      },
+      "60f7e36852a9f9000707df5b": {
+        "facility_name": "Horslunde 3",
+        "actual_kwh": 2494862.6700000027,
+        "predicted_kwh": 2670503.7528743586,
+        "difference_kwh": 175641.08287435584,
+        "percent_difference": 7.0401102628368575,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 12.678137226564038,
+        "capacity_factor_predicted": 13.570692066587913
+      },
+      "60f8387e32a5440007988d63": {
+        "facility_name": "Schacksdorf",
+        "actual_kwh": 3307.0980000000004,
+        "predicted_kwh": 642158.5681199181,
+        "difference_kwh": 638851.4701199181,
+        "percent_difference": 19317.58508879743,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06436927897760868,
+        "capacity_factor_predicted": 12.498959516522563
+      },
+      "63316fb45df66000085b6519": {
+        "facility_name": "G\u00fcstrow I",
+        "actual_kwh": 17682684.161749914,
+        "predicted_kwh": 23086775.038917776,
+        "difference_kwh": 5404090.877167862,
+        "percent_difference": 30.56148505359642,
+        "reference_yield": 864.9450000000002,
+        "capacity_factor_actual": 9.65417073835569,
+        "capacity_factor_predicted": 12.604628685606942
+      },
+      "63da16f6aa24ea0008dedabe": {
+        "facility_name": "Lineg I - Im Meerfeld",
+        "actual_kwh": 95894.08860199997,
+        "predicted_kwh": 57183.67761105479,
+        "difference_kwh": -38710.41099094519,
+        "percent_difference": -40.36788039313806,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 22.181993449547306,
+        "capacity_factor_predicted": 13.227592865020329
+      },
+      "63d23f2f345d90000849afe2": {
+        "facility_name": "PVA36 | KiTa Regenbogen Glauburg",
+        "actual_kwh": 28.484,
+        "predicted_kwh": 6052.325023609653,
+        "difference_kwh": 6023.841023609652,
+        "percent_difference": 21148.15694287899,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 0.06503196347031964,
+        "capacity_factor_predicted": 13.818093661209252
+      },
+      "60f161d452a9f9000707dd8c": {
+        "facility_name": "Deponie Dormagen 2",
+        "actual_kwh": 773468.7,
+        "predicted_kwh": 776276.6719461653,
+        "difference_kwh": 2807.971946165315,
+        "percent_difference": 0.36303627362882496,
+        "reference_yield": 976.0,
+        "capacity_factor_actual": 11.776974870770829,
+        "capacity_factor_predicted": 11.819729561487877
+      },
+      "623ad9aa1bbca900084aa446": {
+        "facility_name": "Pferdsfeld",
+        "actual_kwh": 197164.30000000002,
+        "predicted_kwh": 35296632.81608477,
+        "difference_kwh": 35099468.516084775,
+        "percent_difference": 17802.14192735945,
+        "reference_yield": 1073.0,
+        "capacity_factor_actual": 0.07918706745469657,
+        "capacity_factor_predicted": 14.176181203853645
+      },
+      "6389f4ab6e4e5600089a480f": {
+        "facility_name": "- PVA Storck in Halle",
+        "actual_kwh": 2866688.3031757916,
+        "predicted_kwh": 129431.58727289857,
+        "difference_kwh": -2737256.715902893,
+        "percent_difference": -95.48497870767774,
+        "reference_yield": null,
+        "capacity_factor_actual": 242.98152895276473,
+        "capacity_factor_predicted": 10.970667768627493
+      },
+      "6392fc2970d1b700089960ca": {
+        "facility_name": "Artern I",
+        "actual_kwh": 4305578.122233644,
+        "predicted_kwh": 5406574.452879159,
+        "difference_kwh": 1100996.3306455147,
+        "percent_difference": 25.571393652342806,
+        "reference_yield": 1012.0,
+        "capacity_factor_actual": 10.787688576633737,
+        "capacity_factor_predicted": 13.546250888553569
+      },
+      "60f0360152a9f9000707da3a": {
+        "facility_name": "Aosta (Calv\u00f6rde) 5",
+        "actual_kwh": 777688.0600000039,
+        "predicted_kwh": 1001441.817135444,
+        "difference_kwh": 223753.75713544013,
+        "percent_difference": 28.77165905510225,
+        "reference_yield": 989.0,
+        "capacity_factor_actual": 9.949029025359422,
+        "capacity_factor_predicted": 12.811529735828998
+      },
+      "614852fbe93d850007983c45": {
+        "facility_name": "K\u00f6ching",
+        "actual_kwh": 6046604.313602102,
+        "predicted_kwh": 7477272.085497583,
+        "difference_kwh": 1430667.7718954813,
+        "percent_difference": 23.66068123024242,
+        "reference_yield": 1063.68,
+        "capacity_factor_actual": 12.173750158251194,
+        "capacity_factor_predicted": 15.05414237696114
+      },
+      "61e9562d718f7c00071cb763": {
+        "facility_name": "1 MW Pilotanlage",
+        "actual_kwh": 7410.66,
+        "predicted_kwh": 1277855.2037401705,
+        "difference_kwh": 1270444.5437401705,
+        "percent_difference": 17143.473641216446,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.08459657534246574,
+        "capacity_factor_predicted": 14.587388170549891
+      },
+      "633174db64a8fa0008ca5bae": {
+        "facility_name": "G\u00fcstrow II",
+        "actual_kwh": 5316299.129499987,
+        "predicted_kwh": 7719695.165577692,
+        "difference_kwh": 2403396.036077705,
+        "percent_difference": 45.208066317061274,
+        "reference_yield": 867.8475,
+        "capacity_factor_actual": 9.6750883562852,
+        "capacity_factor_predicted": 14.049008716628887
+      },
+      "63d0ce35345d90000849afbb": {
+        "facility_name": "Gymnasium Rheinkamp 2",
+        "actual_kwh": 111042.8,
+        "predicted_kwh": 171860.37631416923,
+        "difference_kwh": 60817.57631416923,
+        "percent_difference": 54.76949096579807,
+        "reference_yield": 858.0000000000001,
+        "capacity_factor_actual": 7.487813055384954,
+        "capacity_factor_predicted": 11.588850150289867
+      },
+      "60f8362852a9f9000707df87": {
+        "facility_name": "Calbe",
+        "actual_kwh": 5904.2,
+        "predicted_kwh": 1174929.3089629537,
+        "difference_kwh": 1169025.1089629538,
+        "percent_difference": 19799.89006068483,
+        "reference_yield": 961.11,
+        "capacity_factor_actual": 0.06648471371823256,
+        "capacity_factor_predicted": 13.230384937089323
+      },
+      "60f7e55732a5440007988d3d": {
+        "facility_name": "K\u00f8belev",
+        "actual_kwh": 5545907.200000021,
+        "predicted_kwh": 6905952.085402334,
+        "difference_kwh": 1360044.8854023134,
+        "percent_difference": 24.52339782032971,
+        "reference_yield": 1030.09,
+        "capacity_factor_actual": 13.126569131738474,
+        "capacity_factor_predicted": 16.3456499000753
+      },
+      "61890fd8541c180007b61401": {
+        "facility_name": "SP Teichr\u00f6da + Erweiterung",
+        "actual_kwh": 975919.8674583323,
+        "predicted_kwh": 1278060.6629320919,
+        "difference_kwh": 302140.7954737595,
+        "percent_difference": 30.959590592273674,
+        "reference_yield": 978.71,
+        "capacity_factor_actual": 10.408795354965998,
+        "capacity_factor_predicted": 13.63131578245107
+      },
+      "63d0cbe51367b10008fd256f": {
+        "facility_name": "Cremmer",
+        "actual_kwh": 75545.781,
+        "predicted_kwh": 96490.18527072482,
+        "difference_kwh": 20944.404270724815,
+        "percent_difference": 27.724121709357686,
+        "reference_yield": 836.0,
+        "capacity_factor_actual": 8.79097614958178,
+        "capacity_factor_predicted": 11.228197076732439
+      },
+      "63ce84a71367b10008fd254d": {
+        "facility_name": "PVA01 | Solmser Stra\u00dfe 8/10",
+        "actual_kwh": 15230.745469000016,
+        "predicted_kwh": 20658.712596957244,
+        "difference_kwh": 5427.9671279572285,
+        "percent_difference": 35.638223611608986,
+        "reference_yield": 1100.0,
+        "capacity_factor_actual": 10.167658327992747,
+        "capacity_factor_predicted": 13.791231138987186
+      },
+      "620f7c3cb4cb6500072c458d": {
+        "facility_name": "PVA Windischleuba WLF",
+        "actual_kwh": 3146.2200000000003,
+        "predicted_kwh": 862753.2065024211,
+        "difference_kwh": 859606.9865024211,
+        "percent_difference": 27321.8969589673,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.04788767123287671,
+        "capacity_factor_predicted": 13.13170786152848
+      },
+      "655f6198537ef90008726c2a": {
+        "facility_name": "PV B\u00f6hlen",
+        "actual_kwh": 24563.900000000012,
+        "predicted_kwh": 19643785.477264147,
+        "difference_kwh": 19619221.57726415,
+        "percent_difference": 79870.14104952445,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.01670251370890029,
+        "capacity_factor_predicted": 13.35702377182372
+      },
+      "63d0e605b567420008fb97fd": {
+        "facility_name": "ENNI Sportpark",
+        "actual_kwh": 101742.07000000004,
+        "predicted_kwh": 164406.13140548335,
+        "difference_kwh": 62664.06140548331,
+        "percent_difference": 61.59110130694538,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 7.1718123761224,
+        "capacity_factor_predicted": 11.589010602243995
+      },
+      "63da1974fa95820008db61a2": {
+        "facility_name": "Gymnasium Rheinkamp",
+        "actual_kwh": 28675.479999999996,
+        "predicted_kwh": 34711.56274048891,
+        "difference_kwh": 6036.082740488913,
+        "percent_difference": 21.04963104537017,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 11.128528373294461,
+        "capacity_factor_predicted": 13.47104253665228
+      },
+      "67054436446af400087bcbfc": {
+        "facility_name": "Herbsleben 3 Erweiterung",
+        "actual_kwh": 2214596.4411677835,
+        "predicted_kwh": 3152300.681453454,
+        "difference_kwh": 937704.2402856704,
+        "percent_difference": 42.34199165384767,
+        "reference_yield": 994.8,
+        "capacity_factor_actual": 10.133389967881062,
+        "capacity_factor_predicted": 14.424069102333098
+      },
+      "60f0333c6480b10007ef9145": {
+        "facility_name": "Aosta (Calv\u00f6rde) 1",
+        "actual_kwh": 887112.720000004,
+        "predicted_kwh": 1078475.8030689396,
+        "difference_kwh": 191363.08306893555,
+        "percent_difference": 21.571450702334047,
+        "reference_yield": 989.0,
+        "capacity_factor_actual": 10.538271659847052,
+        "capacity_factor_predicted": 12.811529735828998
+      },
+      "650c22f9c32f840008928351": {
+        "facility_name": "Solimare",
+        "actual_kwh": 1558.8748662499988,
+        "predicted_kwh": 67050.74497295491,
+        "difference_kwh": 65491.87010670491,
+        "percent_difference": 4201.226892845541,
+        "reference_yield": 809.0,
+        "capacity_factor_actual": 0.2502161865228103,
+        "capacity_factor_predicted": 10.762365904971677
+      },
+      "614338faef9dd10007031304": {
+        "facility_name": "K\u00f6then BF_6.2",
+        "actual_kwh": 32424.200000000004,
+        "predicted_kwh": 5215271.881050261,
+        "difference_kwh": 5182847.681050261,
+        "percent_difference": 15984.504416609383,
+        "reference_yield": 1013.0,
+        "capacity_factor_actual": 0.08115309568217337,
+        "capacity_factor_predicted": 13.053073259214415
+      },
+      "64590fee6b402c0009c0b5f2": {
+        "facility_name": "UA Asberg",
+        "actual_kwh": 6131.816,
+        "predicted_kwh": 11603.025030862662,
+        "difference_kwh": 5471.209030862662,
+        "percent_difference": 89.22656894568692,
+        "reference_yield": 924.9999999999999,
+        "capacity_factor_actual": 7.142642810548877,
+        "capacity_factor_predicted": 13.515777922447421
+      },
+      "63d0e00a345d90000849afbf": {
+        "facility_name": "Elastoform",
+        "actual_kwh": 3241767.4823899996,
+        "predicted_kwh": 1191473.9200202532,
+        "difference_kwh": -2050293.5623697464,
+        "percent_difference": -63.24616350516797,
+        "reference_yield": 890.0,
+        "capacity_factor_actual": 34.17412650476034,
+        "capacity_factor_predicted": 12.560302579096671
+      },
+      "60e83c8575da360007fb93bd": {
+        "facility_name": "Dessau",
+        "actual_kwh": 2113.9,
+        "predicted_kwh": 115380.75013922933,
+        "difference_kwh": 113266.85013922934,
+        "percent_difference": 5358.193393217718,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07520343598483167,
+        "capacity_factor_predicted": 4.104748974396798
+      },
+      "634a971bf3b1f30008c4feac": {
+        "facility_name": "L\u00fcptitz II",
+        "actual_kwh": 1473034.8130837907,
+        "predicted_kwh": 1826394.7337540302,
+        "difference_kwh": 353359.9206702395,
+        "percent_difference": 23.988565479350914,
+        "reference_yield": 996.0,
+        "capacity_factor_actual": 11.462485277970687,
+        "capacity_factor_predicted": 14.212171064437646
+      },
+      "60f81c8152a9f9000707df7d": {
+        "facility_name": "Lichtenau",
+        "actual_kwh": 5061.310000000001,
+        "predicted_kwh": 1024807.9974909725,
+        "difference_kwh": 1019746.6874909725,
+        "percent_difference": 20147.88043986581,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06483732337074914,
+        "capacity_factor_predicted": 13.12818371651846
+      },
+      "61642ac0f12fdc0007642a62": {
+        "facility_name": "Waldbrunn",
+        "actual_kwh": 4553599.541341034,
+        "predicted_kwh": 5125629.440687957,
+        "difference_kwh": 572029.8993469235,
+        "percent_difference": 12.562147684564742,
+        "reference_yield": 970.0,
+        "capacity_factor_actual": 11.268530224145763,
+        "capacity_factor_predicted": 12.68409963278277
+      },
+      "60f7e2fa32a5440007988d3b": {
+        "facility_name": "Horslunde 2",
+        "actual_kwh": 2495032.280000002,
+        "predicted_kwh": 2670503.7528743586,
+        "difference_kwh": 175471.47287435643,
+        "percent_difference": 7.032833774573702,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 12.678999133265698,
+        "capacity_factor_predicted": 13.570692066587913
+      },
+      "63c7937ffa95820008db5c68": {
+        "facility_name": "Lineg II - Pattbergstra\u00dfe",
+        "actual_kwh": 36310.602000000006,
+        "predicted_kwh": 44337.39874001535,
+        "difference_kwh": 8026.796740015343,
+        "percent_difference": 22.105931320046253,
+        "reference_yield": 869.9999999999999,
+        "capacity_factor_actual": 10.375584206285255,
+        "capacity_factor_predicted": 12.66920372498024
+      },
+      "60991c177df5b200077ca227": {
+        "facility_name": "PVA Sundheim",
+        "actual_kwh": 3507.5000000000005,
+        "predicted_kwh": 769894.7607357777,
+        "difference_kwh": 766387.2607357777,
+        "percent_difference": 21849.95754057812,
+        "reference_yield": 980.0,
+        "capacity_factor_actual": 0.06364640651390804,
+        "capacity_factor_predicted": 13.970359205906563
+      },
+      "60f542f26480b10007ef94bd": {
+        "facility_name": "Nakskov 05 (old VII) ",
+        "actual_kwh": 520.187,
+        "predicted_kwh": 459389.49888426746,
+        "difference_kwh": 458869.3118842675,
+        "percent_difference": 88212.37591179085,
+        "reference_yield": null,
+        "capacity_factor_actual": 0.014845519406392695,
+        "capacity_factor_predicted": 13.110430904231377
+      },
+      "61642a232367aa00089982ad": {
+        "facility_name": "Magdeburg",
+        "actual_kwh": 5499939.042055379,
+        "predicted_kwh": 9363343.205809865,
+        "difference_kwh": 3863404.1637544865,
+        "percent_difference": 70.24449060640309,
+        "reference_yield": 972.95,
+        "capacity_factor_actual": 7.3925223432127805,
+        "capacity_factor_predicted": 12.585362006167134
+      },
+      "65116f971ca11c000890ca46": {
+        "facility_name": "Artern II",
+        "actual_kwh": 1183.6100000000001,
+        "predicted_kwh": 853706.2065807295,
+        "difference_kwh": 852522.5965807295,
+        "percent_difference": 72027.32290034127,
+        "reference_yield": 983.1,
+        "capacity_factor_actual": 0.018781664832312063,
+        "capacity_factor_predicted": 13.546712039661562
+      },
+      "63a4274e345d90000849a8b6": {
+        "facility_name": "Meyenburg",
+        "actual_kwh": 50296.700000000004,
+        "predicted_kwh": 8442921.236839077,
+        "difference_kwh": 8392624.536839077,
+        "percent_difference": 16686.23296725049,
+        "reference_yield": 902.8,
+        "capacity_factor_actual": 0.07711961451278458,
+        "capacity_factor_predicted": 12.945478155561535
+      },
+      "63809ad6e747b2000826a247": {
+        "facility_name": "Brenz",
+        "actual_kwh": 7854136.292965746,
+        "predicted_kwh": 8218298.2820587475,
+        "difference_kwh": 364161.98909300193,
+        "percent_difference": 4.636563149778157,
+        "reference_yield": 1027.0,
+        "capacity_factor_actual": 11.516903031772472,
+        "capacity_factor_predicted": 12.050891513739318
+      },
+      "6494340ae51b3200080dec60": {
+        "facility_name": "UA Moers",
+        "actual_kwh": 9444.846,
+        "predicted_kwh": 25079.441537584662,
+        "difference_kwh": 15634.595537584662,
+        "percent_difference": 165.53573809022046,
+        "reference_yield": 804.0,
+        "capacity_factor_actual": 3.969730364960558,
+        "capacity_factor_predicted": 10.54105282478962
+      },
+      "60f7e3cc52a9f9000707df5c": {
+        "facility_name": "Horslunde 4",
+        "actual_kwh": 4631323.540000002,
+        "predicted_kwh": 2670503.7528743586,
+        "difference_kwh": -1960819.7871256433,
+        "percent_difference": -42.33821649881197,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 23.534984945979534,
+        "capacity_factor_predicted": 13.570692066587913
+      },
+      "60e847f675da360007fb93e0": {
+        "facility_name": "Brattendorf (Soltos 4)",
+        "actual_kwh": 4858.7,
+        "predicted_kwh": 1111889.337664167,
+        "difference_kwh": 1107030.637664167,
+        "percent_difference": 22784.502802481467,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05463417245089255,
+        "capacity_factor_predicted": 12.502758725637062
+      },
+      "60e83f2e75da360007fb93c2": {
+        "facility_name": "F\u00fcrstenwalde",
+        "actual_kwh": 1673149,
+        "predicted_kwh": 2558680.7718402017,
+        "difference_kwh": 885531.7718402017,
+        "percent_difference": 52.926055709336204,
+        "reference_yield": 1047.0,
+        "capacity_factor_actual": 8.377137907554273,
+        "capacity_factor_predicted": 12.81082658335437
+      },
+      "67053e81efb7170008cefcce": {
+        "facility_name": "Ferschweiler",
+        "actual_kwh": 124970.93000000005,
+        "predicted_kwh": 20214366.042897236,
+        "difference_kwh": 20089395.112897236,
+        "percent_difference": 16075.254551516284,
+        "reference_yield": 1057.35,
+        "capacity_factor_actual": 0.08054476004710584,
+        "capacity_factor_predicted": 13.028319965527354
+      },
+      "60e842ced194e400073e01b4": {
+        "facility_name": "Lengenfeld",
+        "actual_kwh": 3003.367,
+        "predicted_kwh": 695325.4725178157,
+        "difference_kwh": 692322.1055178157,
+        "percent_difference": 23051.532014496253,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06012224603997355,
+        "capacity_factor_predicted": 13.919221039778682
+      },
+      "6392fcad816f64000994be8c": {
+        "facility_name": "Rietzneuendorf-Staakow",
+        "actual_kwh": 39288.600000000006,
+        "predicted_kwh": 4504350.84364256,
+        "difference_kwh": 4465062.24364256,
+        "percent_difference": 11364.778189201345,
+        "reference_yield": 1064.0,
+        "capacity_factor_actual": 0.081235872022257,
+        "capacity_factor_predicted": 9.313512537415237
+      },
+      "60e83b8a25e901000796170a": {
+        "facility_name": "Greifenhain_BT4 (Linear)",
+        "actual_kwh": 2351.428,
+        "predicted_kwh": 435868.53594357986,
+        "difference_kwh": 433517.10794357985,
+        "percent_difference": 18436.333493671926,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06750694210227562,
+        "capacity_factor_predicted": 12.51331191945783
+      },
+      "63c6c5bab000490008a4ffa8": {
+        "facility_name": "Perfekta",
+        "actual_kwh": 344047.4050670001,
+        "predicted_kwh": 482957.36479477445,
+        "difference_kwh": 138909.95972777437,
+        "percent_difference": 40.37523831947604,
+        "reference_yield": 817.0,
+        "capacity_factor_actual": 9.201836376421364,
+        "capacity_factor_predicted": 12.917099743169727
+      },
+      "61376b971a69ce00071def65": {
+        "facility_name": "Beerwalde 2",
+        "actual_kwh": 4479069.600000001,
+        "predicted_kwh": 5060354.7937065745,
+        "difference_kwh": 581285.1937065739,
+        "percent_difference": 12.977811144229012,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 12.246929702239358,
+        "capacity_factor_predicted": 13.83631310996247
+      },
+      "63d22db01367b10008fd258d": {
+        "facility_name": "Betriebshof Wittfeldstra\u00dfe",
+        "actual_kwh": 81929.85200000001,
+        "predicted_kwh": 115784.38896698657,
+        "difference_kwh": 33854.53696698656,
+        "percent_difference": 41.321369611392136,
+        "reference_yield": 858.0000000000001,
+        "capacity_factor_actual": 9.362084915966197,
+        "capacity_factor_predicted": 13.230626627424979
+      },
+      "63d0e1c7b000490008a50069": {
+        "facility_name": "NIAG",
+        "actual_kwh": 288680.6620000001,
+        "predicted_kwh": 405097.432395333,
+        "difference_kwh": 116416.77039533289,
+        "percent_difference": 40.327180071151716,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 9.205400561557488,
+        "capacity_factor_predicted": 12.917679022287587
+      },
+      "614314951a69ce00071df1f9": {
+        "facility_name": "K\u00f6then BF_2",
+        "actual_kwh": 32463.279000000006,
+        "predicted_kwh": 5717433.429017467,
+        "difference_kwh": 5684970.150017467,
+        "percent_difference": 17512.00225343061,
+        "reference_yield": 1018.0,
+        "capacity_factor_actual": 0.07411707534246577,
+        "capacity_factor_predicted": 13.053500979491936
+      },
+      "63d0e5511367b10008fd2575": {
+        "facility_name": "Deflex",
+        "actual_kwh": 56695.97317092691,
+        "predicted_kwh": 86697.5705852173,
+        "difference_kwh": 30001.597414290387,
+        "percent_difference": 52.91662835355454,
+        "reference_yield": 869.9999999999999,
+        "capacity_factor_actual": 8.100304200302734,
+        "capacity_factor_predicted": 12.386712069484302
+      },
+      "633175ef5df66000085b67fa": {
+        "facility_name": "G\u00fcstrow III",
+        "actual_kwh": 3295566.0675000097,
+        "predicted_kwh": 3936480.553522678,
+        "difference_kwh": 640914.4860226684,
+        "percent_difference": 19.447781440135444,
+        "reference_yield": 967.3,
+        "capacity_factor_actual": 10.79563166003909,
+        "capacity_factor_predicted": 12.895142510365556
+      },
+      "63d22c85345d90000849afd4": {
+        "facility_name": "Kulturhalle",
+        "actual_kwh": 25763.547999999995,
+        "predicted_kwh": 34224.541319698066,
+        "difference_kwh": 8460.993319698071,
+        "percent_difference": 32.84094768196552,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 9.962887168826025,
+        "capacity_factor_predicted": 13.234793731553435
+      },
+      "5ee8c4c1e228fc0007d40d8d": {
+        "facility_name": "10003 Singen Friedrich-W\u00f6hler-Gymnasium",
+        "actual_kwh": 96.586,
+        "predicted_kwh": 22689.48523043755,
+        "difference_kwh": 22592.89923043755,
+        "percent_difference": 23391.48451166582,
+        "reference_yield": 950.0000000000001,
+        "capacity_factor_actual": 0.058898499395074744,
+        "capacity_factor_predicted": 13.836131862997568
+      },
+      "61433a01ef9dd10007031308": {
+        "facility_name": "K\u00f6then BF_10",
+        "actual_kwh": 52865.13500000001,
+        "predicted_kwh": 8058219.988203834,
+        "difference_kwh": 8005354.853203834,
+        "percent_difference": 15142.976279553306,
+        "reference_yield": 1049.0,
+        "capacity_factor_actual": 0.08154077506495175,
+        "capacity_factor_predicted": 12.429241001314512
+      },
+      "645910866b402c0009c0b5f3": {
+        "facility_name": "UA Rheinpreu\u00dfen",
+        "actual_kwh": 5479.030000000001,
+        "predicted_kwh": 11780.523322227225,
+        "difference_kwh": 6301.493322227225,
+        "percent_difference": 115.01111186153796,
+        "reference_yield": 919.9999999999999,
+        "capacity_factor_actual": 6.382245363898985,
+        "capacity_factor_predicted": 13.72253671865067
+      },
+      "60f810e252a9f9000707df6b": {
+        "facility_name": "Anklam Amber",
+        "actual_kwh": 620063.6999999993,
+        "predicted_kwh": 1326848.4807152585,
+        "difference_kwh": 706784.7807152593,
+        "percent_difference": 113.98583415143639,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 5.936721244423399,
+        "capacity_factor_predicted": 12.703742476124946
+      },
+      "63d22f7baa24ea0008ded5d6": {
+        "facility_name": "Druckerei Meiwes",
+        "actual_kwh": 48679.23899999997,
+        "predicted_kwh": 65449.82642089208,
+        "difference_kwh": 16770.58742089211,
+        "percent_difference": 34.45121116394633,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 9.15182930405905,
+        "capacity_factor_predicted": 12.304745342964353
+      },
+      "63d0e286b000490008a5006c": {
+        "facility_name": "Minrath",
+        "actual_kwh": 234904.72181000008,
+        "predicted_kwh": 336767.86791252997,
+        "difference_kwh": 101863.14610252989,
+        "percent_difference": 43.36360091770343,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 9.006232686546234,
+        "capacity_factor_predicted": 12.911659486459904
+      },
+      "61a62bd673f9af0007fcaa5a": {
+        "facility_name": "11095 Jessnitz",
+        "actual_kwh": 5033.070000000001,
+        "predicted_kwh": 704519.4949596949,
+        "difference_kwh": 699486.424959695,
+        "percent_difference": 13897.808394472855,
+        "reference_yield": 921.0,
+        "capacity_factor_actual": 0.07660787075334521,
+        "capacity_factor_predicted": 10.723422963138669
+      },
+      "60e8390275da360007fb93a7": {
+        "facility_name": "Greifenhain_BT1 (Linear)",
+        "actual_kwh": 3090.117,
+        "predicted_kwh": 547392.3916174927,
+        "difference_kwh": 544302.2746174927,
+        "percent_difference": 17614.29339463498,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07386184285347758,
+        "capacity_factor_predicted": 13.084103549749248
+      },
+      "634a973077ab92000901c0d8": {
+        "facility_name": "L\u00fcptitz III",
+        "actual_kwh": 6006945.224,
+        "predicted_kwh": 7470742.066365083,
+        "difference_kwh": 1463796.8423650824,
+        "percent_difference": 24.3684066989102,
+        "reference_yield": 996.0,
+        "capacity_factor_actual": 11.428719962787886,
+        "capacity_factor_predicted": 14.213716923799577
+      },
+      "64ac20823f6c950008e8e9d6": {
+        "facility_name": "PVA29 | Erlenbachhalle Ober-Erlenbach",
+        "actual_kwh": 49.429,
+        "predicted_kwh": 23500.172825903966,
+        "difference_kwh": 23450.743825903966,
+        "percent_difference": 47443.29002388065,
+        "reference_yield": 920.0000000000001,
+        "capacity_factor_actual": 0.027659705434685294,
+        "capacity_factor_predicted": 13.150333974563505
+      },
+      "6189108f587f4f0007a6b7d9": {
+        "facility_name": "SP Ammelst\u00e4dt",
+        "actual_kwh": 4596.46,
+        "predicted_kwh": 1152237.2213685422,
+        "difference_kwh": 1147640.7613685422,
+        "percent_difference": 24967.926651565384,
+        "reference_yield": 978.71,
+        "capacity_factor_actual": 0.07032421235737747,
+        "capacity_factor_predicted": 17.628821972038462
+      },
+      "60e8458a25e901000796172a": {
+        "facility_name": "Greifenhain_BT2 (Linear)",
+        "actual_kwh": 1069.053,
+        "predicted_kwh": 239704.43454438946,
+        "difference_kwh": 238635.38154438944,
+        "percent_difference": 22322.12823352906,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05835370153184793,
+        "capacity_factor_predicted": 13.084141786481753
+      },
+      "60f5456a80b08100072e1465": {
+        "facility_name": "Nakskov 02 (old XIII)",
+        "actual_kwh": 3925.5600000000004,
+        "predicted_kwh": 459389.49888426746,
+        "difference_kwh": 455463.93888426747,
+        "percent_difference": 11602.52139527271,
+        "reference_yield": null,
+        "capacity_factor_actual": 0.11203082191780823,
+        "capacity_factor_predicted": 13.110430904231377
+      },
+      "63d0e6b5b567420008fb97fe": {
+        "facility_name": "Jostenhof 2",
+        "actual_kwh": 93349.733,
+        "predicted_kwh": 139912.07424764548,
+        "difference_kwh": 46562.34124764548,
+        "percent_difference": 49.879458410069034,
+        "reference_yield": 780.0,
+        "capacity_factor_actual": 7.475001553459506,
+        "capacity_factor_predicted": 11.203491844469353
+      },
+      "60f8121a52a9f9000707df6d": {
+        "facility_name": "Anklam Magenta",
+        "actual_kwh": 631828.7000000002,
+        "predicted_kwh": 742269.5098859997,
+        "difference_kwh": 110440.80988599954,
+        "percent_difference": 17.47954942312679,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 10.81357780014103,
+        "capacity_factor_predicted": 12.703742476124946
+      },
+      "64b83a250a73b7000841c2c7": {
+        "facility_name": "PVA07 | Seemenbachhalle B\u00fcdingen-Wolferborn",
+        "actual_kwh": 350.687,
+        "predicted_kwh": 75066.4682006548,
+        "difference_kwh": 74715.78120065479,
+        "percent_difference": 21305.546313565883,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05640800698475078,
+        "capacity_factor_predicted": 12.074442059680306
+      },
+      "623862e50359940009c601d7": {
+        "facility_name": "PVA06 | Wolfgang-Konrad-Halle",
+        "actual_kwh": 105.899,
+        "predicted_kwh": 26679.608853948805,
+        "difference_kwh": 26573.709853948803,
+        "percent_difference": 25093.447392278307,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05358566906311734,
+        "capacity_factor_predicted": 13.500077345216818
+      },
+      "63da14bafa95820008db619f": {
+        "facility_name": "Klingerhuf",
+        "actual_kwh": 226018.21937500002,
+        "predicted_kwh": 285892.1645611496,
+        "difference_kwh": 59873.94518614959,
+        "percent_difference": 26.49076050228023,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 9.105437110149504,
+        "capacity_factor_predicted": 11.517536647684956
+      },
+      "61b1c5640785f30007a5773f": {
+        "facility_name": "PP-Wensauer Beton_Stockstadt_II",
+        "actual_kwh": 234414.7,
+        "predicted_kwh": 344027.1335096444,
+        "difference_kwh": 109612.43350964441,
+        "percent_difference": 46.76005110159235,
+        "reference_yield": 947.4900000000001,
+        "capacity_factor_actual": 8.274480194734599,
+        "capacity_factor_predicted": 12.143631362183635
+      },
+      "60f0350d6480b10007ef9147": {
+        "facility_name": "Aosta (Calv\u00f6rde) 3",
+        "actual_kwh": 861995.280000009,
+        "predicted_kwh": 1078475.8030689396,
+        "difference_kwh": 216480.5230689306,
+        "percent_difference": 25.113887290534624,
+        "reference_yield": 989.0,
+        "capacity_factor_actual": 10.239894238182016,
+        "capacity_factor_predicted": 12.811529735828998
+      },
+      "612f61d3097a3e000705b036": {
+        "facility_name": "Solarpark Lutstrut",
+        "actual_kwh": 4172232714.108,
+        "predicted_kwh": 1244519.1382289291,
+        "difference_kwh": -4170988194.969771,
+        "percent_difference": -99.97017138727615,
+        "reference_yield": 1091.0,
+        "capacity_factor_actual": 11201.028033009337,
+        "capacity_factor_predicted": 3.3411112730559016
+      },
+      "60e8440375da360007fb93dc": {
+        "facility_name": "Soltos 1 - T\u00f6nisvorst",
+        "actual_kwh": 2855.178000000001,
+        "predicted_kwh": 634713.7874918373,
+        "difference_kwh": 631858.6094918373,
+        "percent_difference": 22130.270319112755,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.055323148230713264,
+        "capacity_factor_predicted": 12.298485400731005
+      },
+      "625edd2ddf388e0008510b61": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H1",
+        "actual_kwh": 57.408,
+        "predicted_kwh": 19512.19081150591,
+        "difference_kwh": 19454.78281150591,
+        "percent_difference": 33888.62669228314,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 0.07201565557729941,
+        "capacity_factor_predicted": 24.477132334168687
+      },
+      "63d22a66fa95820008db5d05": {
+        "facility_name": "Gymnasium Filder Benden",
+        "actual_kwh": 46818.53199999998,
+        "predicted_kwh": 63755.02376779414,
+        "difference_kwh": 16936.491767794163,
+        "percent_difference": 36.17476038717782,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 9.080158475261316,
+        "capacity_factor_predicted": 12.364884046463116
+      },
+      "64f76bbab04c850008f013c3": {
+        "facility_name": "UFV Iracema",
+        "actual_kwh": 441683.14,
+        "predicted_kwh": 2259099.987354464,
+        "difference_kwh": 1817416.8473544638,
+        "percent_difference": 411.47525969736216,
+        "reference_yield": 1430.035805,
+        "capacity_factor_actual": 3.6397298576236934,
+        "capacity_factor_predicted": 18.61631774156322
+      },
+      "634a973f5df66000085b6d9a": {
+        "facility_name": "L\u00fcptitz IV",
+        "actual_kwh": 1191246.6254166674,
+        "predicted_kwh": 1639614.8982107467,
+        "difference_kwh": 448368.27279407927,
+        "percent_difference": 37.6385765321477,
+        "reference_yield": 996.0,
+        "capacity_factor_actual": 10.325516909336873,
+        "capacity_factor_predicted": 14.211894493597482
+      },
+      "621e35e5d2e6ea0008f923de": {
+        "facility_name": "Bp.IV.ker_NVSolar",
+        "actual_kwh": 21.258,
+        "predicted_kwh": 4116.95665271323,
+        "difference_kwh": 4095.6986527132303,
+        "percent_difference": 19266.622695988477,
+        "reference_yield": 8.0,
+        "capacity_factor_actual": 0.07044157703242739,
+        "capacity_factor_predicted": 13.642154444974288
+      },
+      "63d0d3971367b10008fd2573": {
+        "facility_name": "Schulzentrum NKV",
+        "actual_kwh": 203051.81100000002,
+        "predicted_kwh": 268977.318843366,
+        "difference_kwh": 65925.50784336598,
+        "percent_difference": 32.46733310020366,
+        "reference_yield": 809.0,
+        "capacity_factor_actual": 8.695764735688796,
+        "capacity_factor_predicted": 11.519047638034923
+      },
+      "670543e40ebf940008a4815c": {
+        "facility_name": "Herbsleben Freifl\u00e4che",
+        "actual_kwh": 10836.778999999999,
+        "predicted_kwh": 2231252.758842054,
+        "difference_kwh": 2220415.9798420537,
+        "percent_difference": 20489.630542821385,
+        "reference_yield": 931.85,
+        "capacity_factor_actual": 0.07135874644153796,
+        "capacity_factor_predicted": 14.69250225230137
+      },
+      "634a9709d11b230008d132f9": {
+        "facility_name": "L\u00fcptitz I",
+        "actual_kwh": 2285327.5258333306,
+        "predicted_kwh": 3128651.7147117993,
+        "difference_kwh": 843324.1888784687,
+        "percent_difference": 36.901677302073175,
+        "reference_yield": 996.0,
+        "capacity_factor_actual": 10.381302731882478,
+        "capacity_factor_predicted": 14.21217756575306
+      },
+      "63d23e7c1367b10008fd2592": {
+        "facility_name": "PVA14 | Rathaus Nieder-Florstadt",
+        "actual_kwh": 154.32,
+        "predicted_kwh": 27360.055955724056,
+        "difference_kwh": 27205.735955724056,
+        "percent_difference": 17629.429727659444,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 0.07190383002516075,
+        "capacity_factor_predicted": 12.748139015806567
+      },
+      "640b00d6af1d3c0009c3275a": {
+        "facility_name": "GER - L\u00fcbeck - Taschenmacherstra\u00dfe 14 - 16",
+        "actual_kwh": 14635.480000000265,
+        "predicted_kwh": 120100.0926082632,
+        "difference_kwh": 105464.61260826295,
+        "percent_difference": 720.609181306394,
+        "reference_yield": 964.89,
+        "capacity_factor_actual": 1.416822332918249,
+        "capacity_factor_predicted": 11.626574146726593
+      },
+      "63da0d38fa95820008db619e": {
+        "facility_name": "HGZ - Henri-Guidet-Zentrum",
+        "actual_kwh": 65678.51800000001,
+        "predicted_kwh": 82370.5370209433,
+        "difference_kwh": 16692.01902094329,
+        "percent_difference": 25.414731527503847,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 10.1427864135484,
+        "capacity_factor_predicted": 12.720548349959863
+      },
+      "5fa08a838b34940008e2aa29": {
+        "facility_name": "9019 SP Deponie Moos",
+        "actual_kwh": 835202.6000000001,
+        "predicted_kwh": 991484.7617438652,
+        "difference_kwh": 156282.16174386512,
+        "percent_difference": 18.71188640263633,
+        "reference_yield": 1000.0,
+        "capacity_factor_actual": 12.716437600975997,
+        "capacity_factor_predicted": 15.095922959332759
+      },
+      "62a077e2762f99000896f5e3": {
+        "facility_name": "Boock",
+        "actual_kwh": 38123.1,
+        "predicted_kwh": 45607.46099738074,
+        "difference_kwh": 7484.36099738074,
+        "percent_difference": 19.632089198886607,
+        "reference_yield": 1073.91,
+        "capacity_factor_actual": 10.484105166934524,
+        "capacity_factor_predicted": 12.542354045012189
+      },
+      "60f813b452a9f9000707df6e": {
+        "facility_name": "Anklam Purple",
+        "actual_kwh": 1206999.8000000007,
+        "predicted_kwh": 1326848.4807152585,
+        "difference_kwh": 119848.68071525777,
+        "percent_difference": 9.92946980730715,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 11.55626648467699,
+        "capacity_factor_predicted": 12.703742476124946
+      },
+      "60e83cfe75da360007fb93bf": {
+        "facility_name": "Greifenhain_BT5 (Linear)",
+        "actual_kwh": 2726.876,
+        "predicted_kwh": 583956.7330891442,
+        "difference_kwh": 581229.8570891442,
+        "percent_difference": 21314.8620285317,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05843355132374834,
+        "capacity_factor_predicted": 12.513464394351967
+      },
+      "60e83d83d194e400073e019f": {
+        "facility_name": "Soltos 1 - Kempen",
+        "actual_kwh": 3805.55,
+        "predicted_kwh": 820071.8425762393,
+        "difference_kwh": 816266.2925762392,
+        "percent_difference": 21449.364548520956,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06287791518045088,
+        "capacity_factor_predicted": 13.549791162745159
+      },
+      "60a63137302a140007335a7a": {
+        "facility_name": "Jostenhof 3",
+        "actual_kwh": 358080.56450000004,
+        "predicted_kwh": 228229.95321111046,
+        "difference_kwh": -129850.61128888957,
+        "percent_difference": -36.26295983704236,
+        "reference_yield": 852.0,
+        "capacity_factor_actual": 16.970120091087242,
+        "capacity_factor_predicted": 10.81625225815842
+      },
+      "631eeb3c4cafa4000836a0ae": {
+        "facility_name": "Werneuchen-A",
+        "actual_kwh": 4969514.099999989,
+        "predicted_kwh": 7584589.9244227735,
+        "difference_kwh": 2615075.824422784,
+        "percent_difference": 52.622364516941204,
+        "reference_yield": 962.63,
+        "capacity_factor_actual": 8.29938452961034,
+        "capacity_factor_predicted": 12.666716909444517
+      },
+      "60f036a952a9f9000707da3b": {
+        "facility_name": "Silbersee/Silverlake 01",
+        "actual_kwh": 6528.710000000001,
+        "predicted_kwh": 1033681.9122309091,
+        "difference_kwh": 1027153.2022309091,
+        "percent_difference": 15732.86609806392,
+        "reference_yield": 979.0,
+        "capacity_factor_actual": 0.07989778405664295,
+        "capacity_factor_predicted": 12.65010916500854
+      },
+      "63c96f6c345d90000849af59": {
+        "facility_name": "Solarpark M\u00fchlenfeld",
+        "actual_kwh": 5230464.545397,
+        "predicted_kwh": 3949459.5136683495,
+        "difference_kwh": -1281005.031728651,
+        "percent_difference": -24.49122865876191,
+        "reference_yield": 921.0000000000001,
+        "capacity_factor_actual": 17.030764928086803,
+        "capacity_factor_predicted": 12.859721347212838
+      },
+      "60e843b925e9010007961728": {
+        "facility_name": "Weidenhausen",
+        "actual_kwh": 33427182.168999992,
+        "predicted_kwh": 999078.1480994568,
+        "difference_kwh": -32428104.020900536,
+        "percent_difference": -97.01118047268133,
+        "reference_yield": 905.5,
+        "capacity_factor_actual": 423.43712900525105,
+        "capacity_factor_predicted": 12.655771597626497
+      },
+      "63d2208afa95820008db5d04": {
+        "facility_name": "Kita Am Pandyck",
+        "actual_kwh": 23489.334999999977,
+        "predicted_kwh": 33237.487984041225,
+        "difference_kwh": 9748.152984041248,
+        "percent_difference": 41.50033614847443,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 9.549255470345644,
+        "capacity_factor_predicted": 13.512228590215669
+      },
+      "62a9b3e529f4320008ba9161": {
+        "facility_name": "Solarpark Nordhausen (Freifl\u00e4che)",
+        "actual_kwh": 2691764.9000000013,
+        "predicted_kwh": 3980742.896997311,
+        "difference_kwh": 1288977.9969973098,
+        "percent_difference": 47.885979826741526,
+        "reference_yield": 953.0,
+        "capacity_factor_actual": 10.221784166085058,
+        "capacity_factor_predicted": 15.11658566978961
+      },
+      "61a0cf143c84ba000700063c": {
+        "facility_name": "Br\u00f6nnchesthal",
+        "actual_kwh": 7120632.743797686,
+        "predicted_kwh": 9709316.912960064,
+        "difference_kwh": 2588684.1691623777,
+        "percent_difference": 36.354692936764785,
+        "reference_yield": 923.875,
+        "capacity_factor_actual": 10.319773752396143,
+        "capacity_factor_predicted": 14.071495811848608
+      },
+      "60e8431975da360007fb93c9": {
+        "facility_name": "Rostock",
+        "actual_kwh": 4077.899000000001,
+        "predicted_kwh": 959552.238050016,
+        "difference_kwh": 955474.339050016,
+        "percent_difference": 23430.55428910858,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.05814341012388818,
+        "capacity_factor_predicted": 13.681466684740561
+      },
+      "60e84204d194e400073e01b2": {
+        "facility_name": "Neudorf",
+        "actual_kwh": 4294715.642999999,
+        "predicted_kwh": 612507.2547924188,
+        "difference_kwh": -3682208.3882075804,
+        "percent_difference": -85.73811852268378,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 92.54461318487978,
+        "capacity_factor_predicted": 13.198603046068309
+      },
+      "610031eb2398df000728fc54": {
+        "facility_name": "PVA Conz & Stra\u00dfer",
+        "actual_kwh": 172685.62400000004,
+        "predicted_kwh": 172984.60512560816,
+        "difference_kwh": 298.9811256081157,
+        "percent_difference": 0.17313608317975307,
+        "reference_yield": 978.0,
+        "capacity_factor_actual": 23.9235082236113,
+        "capacity_factor_predicted": 23.964928448708847
+      },
+      "60f8144e52a9f9000707df6f": {
+        "facility_name": "Anklam Red",
+        "actual_kwh": 1225406.8999999985,
+        "predicted_kwh": 1356561.5180675169,
+        "difference_kwh": 131154.61806751834,
+        "percent_difference": 10.702944309153025,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 11.475523578350382,
+        "capacity_factor_predicted": 12.703742476124946
+      },
+      "63aad970aa24ea0008decf6b": {
+        "facility_name": "Solarpark Markt Indersdorf",
+        "actual_kwh": 1450038.4098929972,
+        "predicted_kwh": 1731663.847197176,
+        "difference_kwh": 281625.4373041787,
+        "percent_difference": 19.42192947323104,
+        "reference_yield": 1060.0,
+        "capacity_factor_actual": 11.3252257010285,
+        "capacity_factor_predicted": 13.52480304936649
+      },
+      "60f8375352a9f9000707df8a": {
+        "facility_name": "Goldklee - Kall",
+        "actual_kwh": 1435.2,
+        "predicted_kwh": 234673.36359909087,
+        "difference_kwh": 233238.16359909085,
+        "percent_difference": 16251.265579646799,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07722266988987377,
+        "capacity_factor_predicted": 12.626883841387201
+      },
+      "63ce8a07345d90000849af88": {
+        "facility_name": "PVA03 | Gerhart-Hauptmann-Stra\u00dfe 6",
+        "actual_kwh": 9791.52946000002,
+        "predicted_kwh": 10704.283190595115,
+        "difference_kwh": 912.7537305950955,
+        "percent_difference": 9.321870850961966,
+        "reference_yield": 1100.0,
+        "capacity_factor_actual": 12.559039377148453,
+        "capacity_factor_predicted": 13.72977680800769
+      },
+      "674831e8c850510009f7728c": {
+        "facility_name": "Herbsleben Agrarhof Dach",
+        "actual_kwh": 185845.36267717573,
+        "predicted_kwh": 400813.1674677117,
+        "difference_kwh": 214967.804790536,
+        "percent_difference": 115.67025493337042,
+        "reference_yield": 818.2999999999998,
+        "capacity_factor_actual": 6.043362498192823,
+        "capacity_factor_predicted": 13.033735306400166
+      },
+      "614852bc47bd0f0007436da8": {
+        "facility_name": "Barth",
+        "actual_kwh": 10561121.400000004,
+        "predicted_kwh": 12135458.828624725,
+        "difference_kwh": 1574337.4286247212,
+        "percent_difference": 14.9069153643544,
+        "reference_yield": 962.6999999999999,
+        "capacity_factor_actual": 11.770108110872494,
+        "capacity_factor_predicted": 13.52466816525327
+      },
+      "63d2263b345d90000849afd3": {
+        "facility_name": "Pestalozzi-Schule",
+        "actual_kwh": 20638.045736331584,
+        "predicted_kwh": 28326.585239905922,
+        "difference_kwh": 7688.539503574339,
+        "percent_difference": 37.25420324095559,
+        "reference_yield": 880.0,
+        "capacity_factor_actual": 9.87816056227161,
+        "capacity_factor_predicted": 13.558190574608197
+      },
+      "63da18c0fa95820008db61a1": {
+        "facility_name": "Baubetriebshof Rheurdt",
+        "actual_kwh": 14170.527999999991,
+        "predicted_kwh": 18251.084406287915,
+        "difference_kwh": 4080.556406287924,
+        "percent_difference": 28.796078779054152,
+        "reference_yield": 880.0,
+        "capacity_factor_actual": 9.985433226224696,
+        "capacity_factor_predicted": 12.860846444478208
+      },
+      "63c96754fa95820008db5c9b": {
+        "facility_name": "Solarpark Vinn",
+        "actual_kwh": 21427.300000000003,
+        "predicted_kwh": 3983174.5430165366,
+        "difference_kwh": 3961747.243016537,
+        "percent_difference": 18489.250829626395,
+        "reference_yield": 974.0,
+        "capacity_factor_actual": 0.06444966531459918,
+        "capacity_factor_predicted": 11.980709944185563
+      },
+      "60f8149c52a9f9000707df71": {
+        "facility_name": "Anklam Yellow/Gul",
+        "actual_kwh": 1182748,
+        "predicted_kwh": 1356561.5180675169,
+        "difference_kwh": 173813.51806751685,
+        "percent_difference": 14.695735530097439,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 11.07603732380385,
+        "capacity_factor_predicted": 12.703742476124946
+      },
+      "60f0349280b08100072e10bf": {
+        "facility_name": "Aosta (Calv\u00f6rde) 2",
+        "actual_kwh": 885050.6600000001,
+        "predicted_kwh": 1046872.1165321212,
+        "difference_kwh": 161821.45653212105,
+        "percent_difference": 18.283863720537877,
+        "reference_yield": 965.0,
+        "capacity_factor_actual": 10.831172852197342,
+        "capacity_factor_predicted": 12.811529735829
+      },
+      "614208a21a69ce00071df1e4": {
+        "facility_name": "K\u00f6then BF_3",
+        "actual_kwh": 187234.18599999996,
+        "predicted_kwh": 6087982.495735262,
+        "difference_kwh": 5900748.309735262,
+        "percent_difference": 3151.5336145586484,
+        "reference_yield": 1082.0,
+        "capacity_factor_actual": 0.4014606597504536,
+        "capacity_factor_predicted": 13.053628301014921
+      },
+      "615c340a09446800078ae5e7": {
+        "facility_name": "Beilingen",
+        "actual_kwh": 1764598.4499999979,
+        "predicted_kwh": 2596246.7120367647,
+        "difference_kwh": 831648.2620367669,
+        "percent_difference": 47.1296040204936,
+        "reference_yield": 1058.0,
+        "capacity_factor_actual": 9.470530287905222,
+        "capacity_factor_predicted": 13.933953711235864
+      },
+      "602bcfb8ef11870007d6ac69": {
+        "facility_name": "PVA Erocontur",
+        "actual_kwh": 93394.4,
+        "predicted_kwh": 111201.46176508193,
+        "difference_kwh": 17807.061765081933,
+        "percent_difference": 19.066519796777897,
+        "reference_yield": 1035.91,
+        "capacity_factor_actual": 10.733374798363648,
+        "capacity_factor_predicted": 12.779855829156023
+      },
+      "60a630c7302a140007335a79": {
+        "facility_name": "Jostenhof 1",
+        "actual_kwh": 231218.66400000028,
+        "predicted_kwh": 278048.86998507247,
+        "difference_kwh": 46830.205985072185,
+        "percent_difference": 20.253644396575236,
+        "reference_yield": 830.0,
+        "capacity_factor_actual": 10.070516847590339,
+        "capacity_factor_predicted": 12.110163518798485
+      },
+      "61485316e93d850007983c46": {
+        "facility_name": "K\u00f6nigsbr\u00fcck",
+        "actual_kwh": 10708689.082875049,
+        "predicted_kwh": 14699961.792192305,
+        "difference_kwh": 3991272.7093172558,
+        "percent_difference": 37.27134739302457,
+        "reference_yield": 947.1825,
+        "capacity_factor_actual": 10.223915191793814,
+        "capacity_factor_predicted": 14.034506140095502
+      },
+      "63dbabd4b000490008a505ab": {
+        "facility_name": "Wriezen",
+        "actual_kwh": 483847.4221333344,
+        "predicted_kwh": 919120.0427919454,
+        "difference_kwh": 435272.620658611,
+        "percent_difference": 89.96071917453813,
+        "reference_yield": 997.0,
+        "capacity_factor_actual": 7.367934901330429,
+        "capacity_factor_predicted": 13.996182126879079
+      },
+      "625edde75e45680008a0f59e": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H2",
+        "actual_kwh": 81.338,
+        "predicted_kwh": 15737.617756811838,
+        "difference_kwh": 15656.279756811839,
+        "percent_difference": 19248.419873628365,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 0.07325569875622562,
+        "capacity_factor_predicted": 14.173820176714885
+      },
+      "60f543636480b10007ef94be": {
+        "facility_name": "Nakskov 06 (old VIII)",
+        "actual_kwh": 482.5,
+        "predicted_kwh": 459389.49888426746,
+        "difference_kwh": 458906.99888426746,
+        "percent_difference": 95110.25883611762,
+        "reference_yield": null,
+        "capacity_factor_actual": 0.013769977168949774,
+        "capacity_factor_predicted": 13.110430904231377
+      },
+      "60e8475425e901000796172e": {
+        "facility_name": "Goldklee - Bleicherode",
+        "actual_kwh": 3602.2000000000003,
+        "predicted_kwh": 473566.4555256573,
+        "difference_kwh": 469964.25552565727,
+        "percent_difference": 13046.589737539758,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07828099098840671,
+        "capacity_factor_predicted": 10.291280727726303
+      },
+      "60f837e632a5440007988d62": {
+        "facility_name": "Goldklee - Mendez/Dortmund",
+        "actual_kwh": 3181.4000000000005,
+        "predicted_kwh": 487055.3102936808,
+        "difference_kwh": 483873.9102936808,
+        "percent_difference": 15209.464710306176,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06970700882566894,
+        "capacity_factor_predicted": 10.6717699167758
+      },
+      "61642a682367aa00089982ae": {
+        "facility_name": "G\u00fcstrow",
+        "actual_kwh": 2397494.8240000047,
+        "predicted_kwh": 33860230.32044922,
+        "difference_kwh": 31462735.496449213,
+        "percent_difference": 1312.3171396030991,
+        "reference_yield": 939.186,
+        "capacity_factor_actual": 0.8924687987320674,
+        "capacity_factor_predicted": 12.604489810102873
+      },
+      "63d0e0f0345d90000849afc0": {
+        "facility_name": "HBZ - Handw. Bildungszentrum",
+        "actual_kwh": 262706.287222,
+        "predicted_kwh": 372911.598283479,
+        "difference_kwh": 110205.31106147898,
+        "percent_difference": 41.95000897270112,
+        "reference_yield": 890.0000000000001,
+        "capacity_factor_actual": 9.487883508697873,
+        "capacity_factor_predicted": 13.46805149191606
+      },
+      "64d2374e70e05d00093a58da": {
+        "facility_name": "Kogel BF KW",
+        "actual_kwh": 58919.200000000026,
+        "predicted_kwh": 10876922.351907207,
+        "difference_kwh": 10818003.151907207,
+        "percent_difference": 18360.74344510313,
+        "reference_yield": 1001.3083,
+        "capacity_factor_actual": 0.06729179537596484,
+        "capacity_factor_predicted": 12.422565703960641
+      },
+      "625ede1b92216500083e8e49": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H3",
+        "actual_kwh": 65.757,
+        "predicted_kwh": 20822.71979800886,
+        "difference_kwh": 20756.96279800886,
+        "percent_difference": 31566.164511776475,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 0.07217795047418336,
+        "capacity_factor_predicted": 22.85598853838345
+      },
+      "64d2415b37acad00088ceece": {
+        "facility_name": "Kogel BF KO",
+        "actual_kwh": 5577346.5649205325,
+        "predicted_kwh": 10758878.269763237,
+        "difference_kwh": 5181531.704842704,
+        "percent_difference": 92.90316899854567,
+        "reference_yield": 1012.2437,
+        "capacity_factor_actual": 6.439757795495982,
+        "capacity_factor_predicted": 12.422496863342634
+      },
+      "63d23ea3345d90000849afe0": {
+        "facility_name": "PVA30 | Kita Hesseng\u00e4rten Ober-Eschbach",
+        "actual_kwh": 227.20800000000003,
+        "predicted_kwh": 54825.56012035729,
+        "difference_kwh": 54598.35212035729,
+        "percent_difference": 24030.11871076603,
+        "reference_yield": 935.6,
+        "capacity_factor_actual": 0.05403538812785389,
+        "capacity_factor_predicted": 13.038803301074317
+      },
+      "60f836dc80b08100072e15b0": {
+        "facility_name": "Goldklee - D\u00fcren",
+        "actual_kwh": 2310.2000000000003,
+        "predicted_kwh": 445437.57835767913,
+        "difference_kwh": 443127.3783576791,
+        "percent_difference": 19181.342669798247,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.0661254353310302,
+        "capacity_factor_predicted": 12.749871778071773
+      },
+      "61e81936718f7c00071cb57e": {
+        "facility_name": "Solarpark Xanten",
+        "actual_kwh": 4462439.936000001,
+        "predicted_kwh": 4529458.108330227,
+        "difference_kwh": 67018.17233022675,
+        "percent_difference": 1.5018279974945692,
+        "reference_yield": 984.0,
+        "capacity_factor_actual": 11.712131281528237,
+        "capacity_factor_predicted": 11.888027348217546
+      },
+      "6392fc0370d1b700089960c9": {
+        "facility_name": "Hambergen",
+        "actual_kwh": 1841313.5791924996,
+        "predicted_kwh": 10092098.040641867,
+        "difference_kwh": 8250784.461449367,
+        "percent_difference": 448.0923051177255,
+        "reference_yield": 942.0,
+        "capacity_factor_actual": 2.2047504244188096,
+        "capacity_factor_predicted": 12.08406742328989
+      },
+      "63ce8bedaa24ea0008ded59e": {
+        "facility_name": "PVA04 | Gerhart-Hauptmann-Stra\u00dfe 8",
+        "actual_kwh": 9768.827999999994,
+        "predicted_kwh": 10704.272000936771,
+        "difference_kwh": 935.4440009367772,
+        "percent_difference": 9.575805827851385,
+        "reference_yield": 1100.0,
+        "capacity_factor_actual": 12.529921502231792,
+        "capacity_factor_predicted": 13.729762455667707
+      },
+      "60a24e261d401c00074e3b9c": {
+        "facility_name": "Altvater Nufringen",
+        "actual_kwh": 849.2,
+        "predicted_kwh": 179743.01709607916,
+        "difference_kwh": 178893.81709607915,
+        "percent_difference": 21066.15839567583,
+        "reference_yield": 1000.0,
+        "capacity_factor_actual": 0.06259080531340806,
+        "capacity_factor_predicted": 13.248068993765033
+      },
+      "63d22ea8aa24ea0008ded5d4": {
+        "facility_name": "Wasserwerk Niep",
+        "actual_kwh": 21907.922000000006,
+        "predicted_kwh": 30099.686169656205,
+        "difference_kwh": 8191.764169656199,
+        "percent_difference": 37.39178991807711,
+        "reference_yield": 870.0,
+        "capacity_factor_actual": 9.721688388336421,
+        "capacity_factor_predicted": 13.356801686993268
+      },
+      "61376b631a69ce00071def64": {
+        "facility_name": "Beerwalde 1",
+        "actual_kwh": 6056204.4,
+        "predicted_kwh": 1307813.8496788966,
+        "difference_kwh": -4748390.550321104,
+        "percent_difference": -78.40538787497172,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 64.07298741858901,
+        "capacity_factor_predicted": 13.83631310996247
+      },
+      "623390768d486f000826986d": {
+        "facility_name": "Bremen Cloud Log",
+        "actual_kwh": 2747.4922143333324,
+        "predicted_kwh": 976458.0407143662,
+        "difference_kwh": 973710.5485000329,
+        "percent_difference": 35439.97480394315,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.032636905695804554,
+        "capacity_factor_predicted": 11.59914806107563
+      },
+      "60e8467225e901000796172b": {
+        "facility_name": "Greifenhain_BT3 (Linear)",
+        "actual_kwh": 3021.4540000000006,
+        "predicted_kwh": 493570.0092794058,
+        "difference_kwh": 490548.5552794058,
+        "percent_difference": 16235.512944410397,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07704667281315443,
+        "capacity_factor_predicted": 12.585969210630369
+      },
+      "63ceb029b000490008a50058": {
+        "facility_name": "PVA37 | Rosbach-Rodheim Erich-K\u00e4stner-Schule",
+        "actual_kwh": 347.875,
+        "predicted_kwh": 67987.14556672293,
+        "difference_kwh": 67639.27056672293,
+        "percent_difference": 19443.556037865015,
+        "reference_yield": 880.0,
+        "capacity_factor_actual": 0.06128357714640059,
+        "capacity_factor_predicted": 11.976990241615038
+      },
+      "60f0355c6480b10007ef9148": {
+        "facility_name": "Aosta (Calv\u00f6rde) 4",
+        "actual_kwh": 817859.3799999893,
+        "predicted_kwh": 1078475.8030689396,
+        "difference_kwh": 260616.4230689503,
+        "percent_difference": 31.86567635489535,
+        "reference_yield": 989.0,
+        "capacity_factor_actual": 9.715590963450426,
+        "capacity_factor_predicted": 12.811529735828998
+      },
+      "631eebe54cafa4000836a0af": {
+        "facility_name": "Werneuchen-B",
+        "actual_kwh": 8110021.486389485,
+        "predicted_kwh": 13354399.658484789,
+        "difference_kwh": 5244378.172095303,
+        "percent_difference": 64.665404165656,
+        "reference_yield": 962.63,
+        "capacity_factor_actual": 7.692397181803652,
+        "capacity_factor_predicted": 12.666716909444517
+      },
+      "60f5452452a9f9000707de02": {
+        "facility_name": "Nakskov 01 (old XII)",
+        "actual_kwh": 3911.0400000000004,
+        "predicted_kwh": 649695.9682678409,
+        "difference_kwh": 645784.9282678409,
+        "percent_difference": 16511.84667678778,
+        "reference_yield": 1002.76,
+        "capacity_factor_actual": 0.1116164383561644,
+        "capacity_factor_predicted": 18.54155160581738
+      },
+      "614852d2e93d850007983c44": {
+        "facility_name": "Niederg\u00f6rsdorf",
+        "actual_kwh": 8777015.10025002,
+        "predicted_kwh": 12231109.26616931,
+        "difference_kwh": 3454094.165919289,
+        "percent_difference": 39.35385921599811,
+        "reference_yield": 910.4175,
+        "capacity_factor_actual": 10.033339872826009,
+        "capacity_factor_predicted": 13.981846321040559
+      },
+      "62837480c72aa90008e7768f": {
+        "facility_name": "- PVA Storck in Ohrdruf",
+        "actual_kwh": 2583109.379916675,
+        "predicted_kwh": 2808523.7927211565,
+        "difference_kwh": 225414.41280448157,
+        "percent_difference": 8.726475717871185,
+        "reference_yield": 987.9999999999999,
+        "capacity_factor_actual": 11.990708360055628,
+        "capacity_factor_predicted": 13.037074613496632
+      },
+      "63d22b59b000490008a5008e": {
+        "facility_name": "Schwing",
+        "actual_kwh": 42340.71000000002,
+        "predicted_kwh": 55649.34518020039,
+        "difference_kwh": 13308.63518020037,
+        "percent_difference": 31.432243767760067,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 9.785230050737212,
+        "capacity_factor_predicted": 12.860947413521046
+      },
+      "6516bd5abf205500080f37b1": {
+        "facility_name": "G-H-00002",
+        "actual_kwh": 74.21000000000001,
+        "predicted_kwh": 23017.92391175739,
+        "difference_kwh": 22943.71391175739,
+        "percent_difference": 30917.280571024647,
+        "reference_yield": 907.5,
+        "capacity_factor_actual": 0.042336137867139495,
+        "capacity_factor_predicted": 13.131518665186464
+      },
+      "639841abd9fdab0009696459": {
+        "facility_name": "Freimersheim ",
+        "actual_kwh": 76374.59,
+        "predicted_kwh": 12874922.414543243,
+        "difference_kwh": 12798547.824543243,
+        "percent_difference": 16757.599385532863,
+        "reference_yield": 1140.52,
+        "capacity_factor_actual": 0.08459775955795326,
+        "capacity_factor_predicted": 14.261151395416096
+      },
+      "63d23ab5fa95820008db5d0a": {
+        "facility_name": "PVA25 | B\u00fcrgertreff Beienheim",
+        "actual_kwh": 16.592,
+        "predicted_kwh": 29902.93927016023,
+        "difference_kwh": 29886.34727016023,
+        "percent_difference": 180125.04381726275,
+        "reference_yield": 880.0,
+        "capacity_factor_actual": 0.007158215899246557,
+        "capacity_factor_predicted": 12.900897740951375
+      },
+      "63d0cfde345d90000849afbc": {
+        "facility_name": "Dorsterfeldschule",
+        "actual_kwh": 55901.45700000001,
+        "predicted_kwh": 78190.2498010579,
+        "difference_kwh": 22288.79280105789,
+        "percent_difference": 39.871577588859424,
+        "reference_yield": 834.0,
+        "capacity_factor_actual": 8.231998017303535,
+        "capacity_factor_predicted": 11.514225493886084
+      },
+      "64009c1bc26eee0009b29a28": {
+        "facility_name": "GER - Erlbach - Reiter zu Waldberg 44 (Sch\u00e4chnerhof) II - Erweiterung",
+        "actual_kwh": 415780.42673999997,
+        "predicted_kwh": 329397.48204651754,
+        "difference_kwh": -86382.94469348242,
+        "percent_difference": -20.7760969824345,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 7.898738398110596,
+        "capacity_factor_predicted": 6.257688848130345
+      },
+      "61891193541c180007b61404": {
+        "facility_name": "SP Sch\u00f6newalde",
+        "actual_kwh": 684778.0400000094,
+        "predicted_kwh": 889031.3131458446,
+        "difference_kwh": 204253.27314583526,
+        "percent_difference": 29.827661112764726,
+        "reference_yield": 966.0735800000001,
+        "capacity_factor_actual": 10.575082404277754,
+        "capacity_factor_predicted": 13.729382146221337
+      },
+      "63da0b37b000490008a50523": {
+        "facility_name": "PCC-Stadion",
+        "actual_kwh": 104420.30000000005,
+        "predicted_kwh": 129354.8803938708,
+        "difference_kwh": 24934.580393870754,
+        "percent_difference": 23.879054545783475,
+        "reference_yield": 845.0,
+        "capacity_factor_actual": 8.749358169976702,
+        "capacity_factor_predicted": 10.838622179791402
+      },
+      "5fcf24bb8b10d40007b5b01d": {
+        "facility_name": "PVA Gebstedt",
+        "actual_kwh": 540121.1300000063,
+        "predicted_kwh": 659673.4961297704,
+        "difference_kwh": 119552.36612976412,
+        "percent_difference": 22.13436199575505,
+        "reference_yield": 1025.0,
+        "capacity_factor_actual": 11.093897448992381,
+        "capacity_factor_predicted": 13.54946086979019
+      },
+      "654b838b3e8e4c0008ebd457": {
+        "facility_name": "Mantel",
+        "actual_kwh": 180776.4222499993,
+        "predicted_kwh": 8063196.700331273,
+        "difference_kwh": 7882420.278081274,
+        "percent_difference": 4360.314348505314,
+        "reference_yield": 1120.65,
+        "capacity_factor_actual": 0.2937975917475315,
+        "capacity_factor_predicted": 13.104296140278215
+      },
+      "60f7e26452a9f9000707df5a": {
+        "facility_name": "Horslunde 1",
+        "actual_kwh": 2528648.330000002,
+        "predicted_kwh": 2670503.7528743586,
+        "difference_kwh": 141855.42287435662,
+        "percent_difference": 5.609930854811926,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 12.849825728268232,
+        "capacity_factor_predicted": 13.570692066587913
+      },
+      "6392fb75d9fdab0009696407": {
+        "facility_name": "Schleiz",
+        "actual_kwh": 4790210.868082052,
+        "predicted_kwh": 12355633.918394165,
+        "difference_kwh": 7565423.050312113,
+        "percent_difference": 157.9350733956567,
+        "reference_yield": 930.0400000000001,
+        "capacity_factor_actual": 4.943298903154049,
+        "capacity_factor_predicted": 12.750501654017091
+      },
+      "63ce892aaa24ea0008ded59c": {
+        "facility_name": "PVA02 | Jahnstra\u00dfe 19/21",
+        "actual_kwh": 20004.17350150735,
+        "predicted_kwh": 24109.381568528665,
+        "difference_kwh": 4105.2080670213145,
+        "percent_difference": 20.52175795571849,
+        "reference_yield": 1100.0,
+        "capacity_factor_actual": 11.446523558615345,
+        "capacity_factor_predicted": 13.79555141765868
+      },
+      "63ceb367b567420008fb97f1": {
+        "facility_name": "PVA18 | Rosbach-Rodheim Sporthalle",
+        "actual_kwh": 64428.99306000024,
+        "predicted_kwh": 137906.65341622467,
+        "difference_kwh": 73477.66035622443,
+        "percent_difference": 114.04440278586617,
+        "reference_yield": 900.0,
+        "capacity_factor_actual": 6.008911669576529,
+        "capacity_factor_predicted": 12.8617390970753
+      },
+      "61642a975b92d70007ba0e0a": {
+        "facility_name": "Nauroth",
+        "actual_kwh": 7294258.304742096,
+        "predicted_kwh": 9303964.512773804,
+        "difference_kwh": 2009706.2080317084,
+        "percent_difference": 27.5518925169564,
+        "reference_yield": 918.0,
+        "capacity_factor_actual": 9.80197632335714,
+        "capacity_factor_predicted": 12.502606304506013
+      },
+      "60f0399f80b08100072e10c5": {
+        "facility_name": "Tango (Saltlake) SPV 1",
+        "actual_kwh": 1082.9500000000003,
+        "predicted_kwh": 1101096.8003998853,
+        "difference_kwh": 1100013.8503998853,
+        "percent_difference": 101575.68220138372,
+        "reference_yield": 962.02,
+        "capacity_factor_actual": 0.012771118721461189,
+        "capacity_factor_predicted": 12.985122084794302
+      },
+      "63c6c8ffaa24ea0008ded52f": {
+        "facility_name": "Geschwister-Scholl-Schule",
+        "actual_kwh": 136239.61939900077,
+        "predicted_kwh": 188168.02944824225,
+        "difference_kwh": 51928.41004924147,
+        "percent_difference": 38.115498471234226,
+        "reference_yield": 809.0000000000001,
+        "capacity_factor_actual": 8.120545096033032,
+        "capacity_factor_predicted": 11.215731337967387
+      },
+      "63d0d25ab000490008a50068": {
+        "facility_name": "Baubetriebshof NKV",
+        "actual_kwh": 157812.70783591684,
+        "predicted_kwh": 195922.38352270567,
+        "difference_kwh": 38109.67568678883,
+        "percent_difference": 24.148673582366218,
+        "reference_yield": 860.0,
+        "capacity_factor_actual": 9.40640627419462,
+        "capacity_factor_predicted": 11.677928621181096
+      },
+      "63da0bfefa95820008db619d": {
+        "facility_name": "Pumpwerk Wittfeldstra\u00dfe",
+        "actual_kwh": 158423160.79000002,
+        "predicted_kwh": 59686.53040239639,
+        "difference_kwh": -158363474.25959763,
+        "percent_difference": -99.96232461837981,
+        "reference_yield": 817.0,
+        "capacity_factor_actual": 30756.523310579945,
+        "capacity_factor_predicted": 11.587637530363043
+      },
+      "657b551207d2de00087f27b6": {
+        "facility_name": "PVA19 | Bauhof Nidda",
+        "actual_kwh": 56.706,
+        "predicted_kwh": 65503.028165633754,
+        "difference_kwh": 65446.322165633756,
+        "percent_difference": 115413.39922694908,
+        "reference_yield": 890.0,
+        "capacity_factor_actual": 0.01100899263815115,
+        "capacity_factor_predicted": 12.716861616972974
+      },
+      "60e8418025e9010007961716": {
+        "facility_name": "Goldklee - Zerbst",
+        "actual_kwh": 3398.5000000000005,
+        "predicted_kwh": 659943.2801437058,
+        "difference_kwh": 656544.7801437058,
+        "percent_difference": 19318.663532255574,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.07248138645578071,
+        "capacity_factor_predicted": 14.074916559361919
+      },
+      "60e8435275da360007fb93ca": {
+        "facility_name": "Goldklee - Magdeburg",
+        "actual_kwh": 4295420.498,
+        "predicted_kwh": 740081.4407686049,
+        "difference_kwh": -3555339.0572313946,
+        "percent_difference": -82.77045422879561,
+        "reference_yield": 950.0000000000001,
+        "capacity_factor_actual": 75.82495294546956,
+        "capacity_factor_predicted": 13.064294973733858
+      },
+      "6148533ce93d850007983c47": {
+        "facility_name": "Hildburghausen I+II",
+        "actual_kwh": 5543383.354999945,
+        "predicted_kwh": 6862362.348394106,
+        "difference_kwh": 1318978.9933941616,
+        "percent_difference": 23.7937539031012,
+        "reference_yield": 952.0,
+        "capacity_factor_actual": 10.490820939388604,
+        "capacity_factor_predicted": 12.986981056121738
+      },
+      "63d0d0efaa24ea0008ded5b9": {
+        "facility_name": "Regenbogenschule",
+        "actual_kwh": 140291.29006074902,
+        "predicted_kwh": 232035.00860615526,
+        "difference_kwh": 91743.71854540624,
+        "percent_difference": 65.39516352417839,
+        "reference_yield": 832.0,
+        "capacity_factor_actual": 7.006600800567527,
+        "capacity_factor_predicted": 11.588578851585051
+      },
+      "64107032af1d3c0009c327d5": {
+        "facility_name": "UA Neukirchen",
+        "actual_kwh": 11496.529,
+        "predicted_kwh": 21807.588620213584,
+        "difference_kwh": 10311.059620213584,
+        "percent_difference": 89.68845831827662,
+        "reference_yield": 776.0,
+        "capacity_factor_actual": 5.858880157371168,
+        "capacity_factor_predicted": 11.113619445232787
+      },
+      "63594062f3b1f30008c4ff73": {
+        "facility_name": "M\u00f6ckernkiez G15",
+        "actual_kwh": 40295.69000000002,
+        "predicted_kwh": 44204.810556057586,
+        "difference_kwh": 3909.120556057569,
+        "percent_difference": 9.70108851854272,
+        "reference_yield": 1012.1500000000001,
+        "capacity_factor_actual": 10.648066231185528,
+        "capacity_factor_predicted": 11.681044561785892
+      },
+      "64943783b35e770008516302": {
+        "facility_name": "Grafschafter Gymnasium",
+        "actual_kwh": 16903.048,
+        "predicted_kwh": 63351.709500713754,
+        "difference_kwh": 46448.66150071376,
+        "percent_difference": 274.79459030533286,
+        "reference_yield": 865.0,
+        "capacity_factor_actual": 2.8713864427049356,
+        "capacity_factor_predicted": 10.761801054018836
+      },
+      "60f0372152a9f9000707da3c": {
+        "facility_name": "Silbersee/Silverlake 02",
+        "actual_kwh": 6499.710000000002,
+        "predicted_kwh": 1086016.9195939936,
+        "difference_kwh": 1079517.2095939936,
+        "percent_difference": 16608.69807412936,
+        "reference_yield": 979.0,
+        "capacity_factor_actual": 0.07954288458375434,
+        "capacity_factor_predicted": 13.2905804245527
+      },
+      "60e841f375da360007fb93c7": {
+        "facility_name": "Neudorf - Engersen",
+        "actual_kwh": 3617.9360000000006,
+        "predicted_kwh": 801786.6491734195,
+        "difference_kwh": 798168.7131734195,
+        "percent_difference": 22061.438156269745,
+        "reference_yield": 950.0,
+        "capacity_factor_actual": 0.06209688658759044,
+        "capacity_factor_predicted": 13.761563118077817
+      }
+    },
+    "summary": {
+      "total_facilities": 187,
+      "total_actual_energy": 92238314897034.23,
+      "total_predicted_energy": 521111711.5948349,
+      "average_actual_energy": 493253020839.755,
+      "average_predicted_energy": 2786693.6448921645
+    }
+  },
+  "specific_yield_validation": {
+    "metric_type": "specific_yield_kwh_kwp",
+    "validation_metrics": {
+      "n_points": 187,
+      "mae": 1442209136.9503415,
+      "mse": 3.8894270814001745e+20,
+      "rmse": 19721630463.529568,
+      "mape": 10603.934788842816,
+      "mean_bias": -1442207893.846387,
+      "percent_bias": -99.99992025390935,
+      "correlation": -0.005503537288097342,
+      "correlation_p_value": 0.9404091067422103,
+      "r2_score": -0.005376489946688157,
+      "nrmse": 13.674599078571442,
+      "nmae": 1.0000000644834557,
+      "mean_actual": 1442209043.9517183,
+      "mean_predicted": 1150.1053311382127,
+      "ratio_predicted_actual": 7.974609062129244e-07
+    },
+    "facility_comparisons": {
+      "60f543db80b08100072e1460": {
+        "facility_name": "Nakskov 07 (old IX)",
+        "actual_yield": 9.667183333333334,
+        "predicted_yield": 2758.58569118439,
+        "difference_yield": 2748.9185078510563,
+        "percent_difference": 28435.56818015992,
+        "facility_power_kw": 120,
+        "reference_yield": 1002.76
+      },
+      "629ef12dfb82e00008a1c33b": {
+        "facility_name": "PVA 342 kWp",
+        "actual_yield": 269689241582.69244,
+        "predicted_yield": 1133.6794953841447,
+        "difference_yield": -269689240449.01294,
+        "percent_difference": -99.99999957963487,
+        "facility_power_kw": 342,
+        "reference_yield": 1000.0
+      },
+      "61828d23541c180007b61398": {
+        "facility_name": "L\u00fcptitz",
+        "actual_yield": 35.455656153886665,
+        "predicted_yield": 1245.0376157645708,
+        "difference_yield": 1209.5819596106842,
+        "percent_difference": 3411.5345499764194,
+        "facility_power_kw": 11242.57,
+        "reference_yield": 1064.278
+      },
+      "60990f25b7ba7c00077d7fc4": {
+        "facility_name": "SP Salzwedel",
+        "actual_yield": 906.0566389235282,
+        "predicted_yield": 1147.3872128310898,
+        "difference_yield": 241.33057390756153,
+        "percent_difference": 26.63526357406118,
+        "facility_power_kw": 746.13,
+        "reference_yield": 1014.6475099999999
+      },
+      "64d2452761cede0009328a6e": {
+        "facility_name": "Kogel BF LE",
+        "actual_yield": 5.654230056898338,
+        "predicted_yield": 1116.4222474254784,
+        "difference_yield": 1110.76801736858,
+        "percent_difference": 19644.90312900177,
+        "facility_power_kw": 7931.69,
+        "reference_yield": 1010.184
+      },
+      "60f5444280b08100072e1461": {
+        "facility_name": "Nakskov 03 (old X)",
+        "actual_yield": 9.837075,
+        "predicted_yield": 1148.4737472106688,
+        "difference_yield": 1138.6366722106688,
+        "percent_difference": 11574.95162139832,
+        "facility_power_kw": 400,
+        "reference_yield": null
+      },
+      "63d23ed1fa95820008db5d0f": {
+        "facility_name": "PVA32 | Jugendzentrum Oberste G\u00e4rten",
+        "actual_yield": 5.702,
+        "predicted_yield": 1127.0432346491116,
+        "difference_yield": 1121.3412346491116,
+        "percent_difference": 19665.752975256255,
+        "facility_power_kw": 17.5,
+        "reference_yield": 930.0
+      },
+      "60f0378c6480b10007ef914a": {
+        "facility_name": "Silbersee/Silverlake 03",
+        "actual_yield": 6.89898156089194,
+        "predicted_yield": 1164.2548451908165,
+        "difference_yield": 1157.3558636299244,
+        "percent_difference": 16775.749484396285,
+        "facility_power_kw": 932.8,
+        "reference_yield": 979.0
+      },
+      "60f544a152a9f9000707de01": {
+        "facility_name": "Nakskov 04 (old XI)",
+        "actual_yield": 9.518725000000002,
+        "predicted_yield": 1148.4737472106688,
+        "difference_yield": 1138.9550222106689,
+        "percent_difference": 11965.415769555993,
+        "facility_power_kw": 400,
+        "reference_yield": null
+      },
+      "6089503d5ad7c10007d53da7": {
+        "facility_name": "PVA Reichenauer Wiesen",
+        "actual_yield": 957.2368368368323,
+        "predicted_yield": 1104.5059435025698,
+        "difference_yield": 147.26910666573758,
+        "percent_difference": 15.384813976903047,
+        "facility_power_kw": 749.25,
+        "reference_yield": 1000.0
+      },
+      "60f7e36852a9f9000707df5b": {
+        "facility_name": "Horslunde 3",
+        "actual_yield": 1110.6048210470096,
+        "predicted_yield": 1188.792625033101,
+        "difference_yield": 78.18780398609147,
+        "percent_difference": 7.04011026283686,
+        "facility_power_kw": 2246.4,
+        "reference_yield": 950.0
+      },
+      "60f8387e32a5440007988d63": {
+        "facility_name": "Schacksdorf",
+        "actual_yield": 5.638748838438521,
+        "predicted_yield": 1094.9088536473766,
+        "difference_yield": 1089.2701048089382,
+        "percent_difference": 19317.58508879743,
+        "facility_power_kw": 586.495,
+        "reference_yield": 950.0
+      },
+      "63316fb45df66000085b6519": {
+        "facility_name": "G\u00fcstrow I",
+        "actual_yield": 845.7053566799584,
+        "predicted_yield": 1104.1654728591682,
+        "difference_yield": 258.46011617920976,
+        "percent_difference": 30.561485053596414,
+        "facility_power_kw": 20908.8,
+        "reference_yield": 864.9450000000002
+      },
+      "63da16f6aa24ea0008dedabe": {
+        "facility_name": "Lineg I - Im Meerfeld",
+        "actual_yield": 1943.142626180344,
+        "predicted_yield": 1158.737134975781,
+        "difference_yield": -784.4054912045631,
+        "percent_difference": -40.36788039313806,
+        "facility_power_kw": 49.35,
+        "reference_yield": 870.0
+      },
+      "63d23f2f345d90000849afe2": {
+        "facility_name": "PVA36 | KiTa Regenbogen Glauburg",
+        "actual_yield": 5.6968000000000005,
+        "predicted_yield": 1210.4650047219307,
+        "difference_yield": 1204.7682047219307,
+        "percent_difference": 21148.156942878995,
+        "facility_power_kw": 5,
+        "reference_yield": 900.0
+      },
+      "60f161d452a9f9000707dd8c": {
+        "facility_name": "Deponie Dormagen 2",
+        "actual_yield": 1031.6629986795244,
+        "predicted_yield": 1035.4083095863382,
+        "difference_yield": 3.7453109068137564,
+        "percent_difference": 0.363036273628846,
+        "facility_power_kw": 749.73,
+        "reference_yield": 976.0
+      },
+      "623ad9aa1bbca900084aa446": {
+        "facility_name": "Pferdsfeld",
+        "actual_yield": 6.936787109031419,
+        "predicted_yield": 1241.8334734575792,
+        "difference_yield": 1234.8966863485477,
+        "percent_difference": 17802.141927359447,
+        "facility_power_kw": 28423,
+        "reference_yield": 1073.0
+      },
+      "6389f4ab6e4e5600089a480f": {
+        "facility_name": "- PVA Storck in Halle",
+        "actual_yield": 21285.181936262186,
+        "predicted_yield": 961.0304965317683,
+        "difference_yield": -20324.151439730416,
+        "percent_difference": -95.48497870767774,
+        "facility_power_kw": 134.68,
+        "reference_yield": null
+      },
+      "6392fc2970d1b700089960ca": {
+        "facility_name": "Artern I",
+        "actual_yield": 945.0015193131155,
+        "predicted_yield": 1186.6515778372925,
+        "difference_yield": 241.65005852417698,
+        "percent_difference": 25.571393652342795,
+        "facility_power_kw": 4556.16,
+        "reference_yield": 1012.0
+      },
+      "60f0360152a9f9000707da3a": {
+        "facility_name": "Aosta (Calv\u00f6rde) 5",
+        "actual_yield": 871.5349426214854,
+        "predicted_yield": 1122.2900048586203,
+        "difference_yield": 250.7550622371349,
+        "percent_difference": 28.771659055102262,
+        "facility_power_kw": 892.32,
+        "reference_yield": 989.0
+      },
+      "614852fbe93d850007983c45": {
+        "facility_name": "K\u00f6ching",
+        "actual_yield": 1066.4205138628047,
+        "predicted_yield": 1318.742872221796,
+        "difference_yield": 252.32235835899132,
+        "percent_difference": 23.660681230242414,
+        "facility_power_kw": 5670,
+        "reference_yield": 1063.68
+      },
+      "61e9562d718f7c00071cb763": {
+        "facility_name": "1 MW Pilotanlage",
+        "actual_yield": 7.41066,
+        "predicted_yield": 1277.8552037401705,
+        "difference_yield": 1270.4445437401705,
+        "percent_difference": 17143.473641216442,
+        "facility_power_kw": 1000,
+        "reference_yield": 950.0
+      },
+      "633174db64a8fa0008ca5bae": {
+        "facility_name": "G\u00fcstrow II",
+        "actual_yield": 847.5377400105835,
+        "predicted_yield": 1230.6931635766905,
+        "difference_yield": 383.15542356610695,
+        "percent_difference": 45.20806631706127,
+        "facility_power_kw": 6272.64,
+        "reference_yield": 867.8475
+      },
+      "63d0ce35345d90000849afbb": {
+        "facility_name": "Gymnasium Rheinkamp 2",
+        "actual_yield": 655.9324236517219,
+        "predicted_yield": 1015.1832731653922,
+        "difference_yield": 359.25084951367023,
+        "percent_difference": 54.769490965798084,
+        "facility_power_kw": 169.29,
+        "reference_yield": 858.0000000000001
+      },
+      "60f8362852a9f9000707df87": {
+        "facility_name": "Calbe",
+        "actual_yield": 5.824060921717171,
+        "predicted_yield": 1158.9817204890248,
+        "difference_yield": 1153.1576595673077,
+        "percent_difference": 19799.890060684833,
+        "facility_power_kw": 1013.76,
+        "reference_yield": 961.11
+      },
+      "60f7e55732a5440007988d3d": {
+        "facility_name": "K\u00f8belev",
+        "actual_yield": 1149.8874559402905,
+        "predicted_yield": 1431.8789312465963,
+        "difference_yield": 281.9914753063058,
+        "percent_difference": 24.5233978203297,
+        "facility_power_kw": 4823,
+        "reference_yield": 1030.09
+      },
+      "61890fd8541c180007b61401": {
+        "facility_name": "SP Teichr\u00f6da + Erweiterung",
+        "actual_yield": 911.8104730950214,
+        "predicted_yield": 1194.1032625427138,
+        "difference_yield": 282.29278944769237,
+        "percent_difference": 30.959590592273678,
+        "facility_power_kw": 1070.31,
+        "reference_yield": 978.71
+      },
+      "63d0cbe51367b10008fd256f": {
+        "facility_name": "Cremmer",
+        "actual_yield": 770.089510703364,
+        "predicted_yield": 983.5900639217617,
+        "difference_yield": 213.50055321839773,
+        "percent_difference": 27.724121709357686,
+        "facility_power_kw": 98.1,
+        "reference_yield": 836.0
+      },
+      "63ce84a71367b10008fd254d": {
+        "facility_name": "PVA01 | Solmser Stra\u00dfe 8/10",
+        "actual_yield": 890.6868695321646,
+        "predicted_yield": 1208.1118477752773,
+        "difference_yield": 317.4249782431127,
+        "percent_difference": 35.63822361160898,
+        "facility_power_kw": 17.1,
+        "reference_yield": 1100.0
+      },
+      "620f7c3cb4cb6500072c458d": {
+        "facility_name": "PVA Windischleuba WLF",
+        "actual_yield": 4.19496,
+        "predicted_yield": 1150.3376086698947,
+        "difference_yield": 1146.1426486698947,
+        "percent_difference": 27321.8969589673,
+        "facility_power_kw": 750,
+        "reference_yield": 950.0
+      },
+      "655f6198537ef90008726c2a": {
+        "facility_name": "PV B\u00f6hlen",
+        "actual_yield": 1.4631402008996652,
+        "predicted_yield": 1170.0752824117578,
+        "difference_yield": 1168.612142210858,
+        "percent_difference": 79870.14104952445,
+        "facility_power_kw": 16788.48,
+        "reference_yield": 950.0
+      },
+      "63d0e605b567420008fb97fd": {
+        "facility_name": "ENNI Sportpark",
+        "actual_yield": 628.2507641483222,
+        "predicted_yield": 1015.1973287565738,
+        "difference_yield": 386.9465646082516,
+        "percent_difference": 61.591101306945376,
+        "facility_power_kw": 161.945,
+        "reference_yield": 900.0
+      },
+      "63da1974fa95820008db61a2": {
+        "facility_name": "Gymnasium Rheinkamp",
+        "actual_yield": 974.8590855005948,
+        "predicted_yield": 1180.0633262107397,
+        "difference_yield": 205.20424071014486,
+        "percent_difference": 21.049631045370162,
+        "facility_power_kw": 29.415,
+        "reference_yield": 860.0
+      },
+      "67054436446af400087bcbfc": {
+        "facility_name": "Herbsleben 3 Erweiterung",
+        "actual_yield": 887.684961186381,
+        "predicted_yield": 1263.5484533643794,
+        "difference_yield": 375.8634921779984,
+        "percent_difference": 42.34199165384768,
+        "facility_power_kw": 2494.8,
+        "reference_yield": 994.8
+      },
+      "60f0333c6480b10007ef9145": {
+        "facility_name": "Aosta (Calv\u00f6rde) 1",
+        "actual_yield": 923.1525974026016,
+        "predicted_yield": 1122.29000485862,
+        "difference_yield": 199.13740745601842,
+        "percent_difference": 21.57145070233404,
+        "facility_power_kw": 960.96,
+        "reference_yield": 989.0
+      },
+      "650c22f9c32f840008928351": {
+        "facility_name": "Solimare",
+        "actual_yield": 21.918937939398184,
+        "predicted_yield": 942.783253275519,
+        "difference_yield": 920.8643153361207,
+        "percent_difference": 4201.2268928455405,
+        "facility_power_kw": 71.12,
+        "reference_yield": 809.0
+      },
+      "614338faef9dd10007031304": {
+        "facility_name": "K\u00f6then BF_6.2",
+        "actual_yield": 7.109011181758388,
+        "predicted_yield": 1143.4492175071828,
+        "difference_yield": 1136.3402063254243,
+        "percent_difference": 15984.504416609383,
+        "facility_power_kw": 4561,
+        "reference_yield": 1013.0
+      },
+      "64590fee6b402c0009c0b5f2": {
+        "facility_name": "UA Asberg",
+        "actual_yield": 625.6955102040815,
+        "predicted_yield": 1183.982146006394,
+        "difference_yield": 558.2866358023125,
+        "percent_difference": 89.22656894568695,
+        "facility_power_kw": 9.8,
+        "reference_yield": 924.9999999999999
+      },
+      "63d0e00a345d90000849afbf": {
+        "facility_name": "Elastoform",
+        "actual_yield": 2993.6534818170057,
+        "predicted_yield": 1100.2825059288684,
+        "difference_yield": -1893.3709758881373,
+        "percent_difference": -63.24616350516797,
+        "facility_power_kw": 1082.88,
+        "reference_yield": 890.0
+      },
+      "60e83c8575da360007fb93bd": {
+        "facility_name": "Dessau",
+        "actual_yield": 6.587820992271254,
+        "predicted_yield": 359.5760101571595,
+        "difference_yield": 352.98818916488824,
+        "percent_difference": 5358.193393217718,
+        "facility_power_kw": 320.88,
+        "reference_yield": 950.0
+      },
+      "634a971bf3b1f30008c4feac": {
+        "facility_name": "L\u00fcptitz II",
+        "actual_yield": 1004.1137103502323,
+        "predicted_yield": 1244.9861852447377,
+        "difference_yield": 240.87247489450544,
+        "percent_difference": 23.988565479350914,
+        "facility_power_kw": 1467,
+        "reference_yield": 996.0
+      },
+      "60f81c8152a9f9000707df7d": {
+        "facility_name": "Lichtenau",
+        "actual_yield": 5.679749527277625,
+        "predicted_yield": 1150.0288935670171,
+        "difference_yield": 1144.3491440397395,
+        "percent_difference": 20147.88043986581,
+        "facility_power_kw": 891.115,
+        "reference_yield": 950.0
+      },
+      "61642ac0f12fdc0007642a62": {
+        "facility_name": "Waldbrunn",
+        "actual_yield": 987.1232476351688,
+        "predicted_yield": 1111.1271278317704,
+        "difference_yield": 124.00388019660159,
+        "percent_difference": 12.562147684564737,
+        "facility_power_kw": 4613,
+        "reference_yield": 970.0
+      },
+      "60f7e2fa32a5440007988d3b": {
+        "facility_name": "Horslunde 2",
+        "actual_yield": 1110.680324074075,
+        "predicted_yield": 1188.792625033101,
+        "difference_yield": 78.11230095902602,
+        "percent_difference": 7.032833774573685,
+        "facility_power_kw": 2246.4,
+        "reference_yield": 950.0
+      },
+      "63c7937ffa95820008db5c68": {
+        "facility_name": "Lineg II - Pattbergstra\u00dfe",
+        "actual_yield": 908.9011764705883,
+        "predicted_yield": 1109.822246308269,
+        "difference_yield": 200.92106983768076,
+        "percent_difference": 22.105931320046267,
+        "facility_power_kw": 39.95,
+        "reference_yield": 869.9999999999999
+      },
+      "60991c177df5b200077ca227": {
+        "facility_name": "PVA Sundheim",
+        "actual_yield": 5.575425210618344,
+        "predicted_yield": 1223.8034664374147,
+        "difference_yield": 1218.2280412267964,
+        "percent_difference": 21849.95754057812,
+        "facility_power_kw": 629.1,
+        "reference_yield": 980.0
+      },
+      "60f542f26480b10007ef94bd": {
+        "facility_name": "Nakskov 05 (old VII) ",
+        "actual_yield": 1.3004675,
+        "predicted_yield": 1148.4737472106688,
+        "difference_yield": 1147.1732797106688,
+        "percent_difference": 88212.37591179085,
+        "facility_power_kw": 400,
+        "reference_yield": null
+      },
+      "61642a232367aa00089982ad": {
+        "facility_name": "Magdeburg",
+        "actual_yield": 647.5849572654396,
+        "predicted_yield": 1102.4777117402407,
+        "difference_yield": 454.8927544748011,
+        "percent_difference": 70.24449060640308,
+        "facility_power_kw": 8493,
+        "reference_yield": 972.95
+      },
+      "65116f971ca11c000890ca46": {
+        "facility_name": "Artern II",
+        "actual_yield": 1.6452738393105368,
+        "predicted_yield": 1186.6919746743529,
+        "difference_yield": 1185.0467008350424,
+        "percent_difference": 72027.32290034127,
+        "facility_power_kw": 719.4,
+        "reference_yield": 983.1
+      },
+      "63a4274e345d90000849a8b6": {
+        "facility_name": "Meyenburg",
+        "actual_yield": 6.755678231319929,
+        "predicted_yield": 1134.0238864271905,
+        "difference_yield": 1127.2682081958706,
+        "percent_difference": 16686.232967250486,
+        "facility_power_kw": 7445.1,
+        "reference_yield": 902.8
+      },
+      "63809ad6e747b2000826a247": {
+        "facility_name": "Brenz",
+        "actual_yield": 1008.8807055832685,
+        "predicted_yield": 1055.6580966035642,
+        "difference_yield": 46.77739102029568,
+        "percent_difference": 4.636563149778157,
+        "facility_power_kw": 7785,
+        "reference_yield": 1027.0
+      },
+      "6494340ae51b3200080dec60": {
+        "facility_name": "UA Moers",
+        "actual_yield": 347.7483799705449,
+        "predicted_yield": 923.3962274515708,
+        "difference_yield": 575.6478474810259,
+        "percent_difference": 165.5357380902205,
+        "facility_power_kw": 27.16,
+        "reference_yield": 804.0
+      },
+      "60f7e3cc52a9f9000707df5c": {
+        "facility_name": "Horslunde 4",
+        "actual_yield": 2061.664681267807,
+        "predicted_yield": 1188.792625033101,
+        "difference_yield": -872.8720562347057,
+        "percent_difference": -42.33821649881197,
+        "facility_power_kw": 2246.4,
+        "reference_yield": 950.0
+      },
+      "60e847f675da360007fb93e0": {
+        "facility_name": "Brattendorf (Soltos 4)",
+        "actual_yield": 4.7859535066981875,
+        "predicted_yield": 1095.2416643658066,
+        "difference_yield": 1090.4557108591084,
+        "percent_difference": 22784.502802481464,
+        "facility_power_kw": 1015.2,
+        "reference_yield": 950.0
+      },
+      "60e83f2e75da360007fb93c2": {
+        "facility_name": "F\u00fcrstenwalde",
+        "actual_yield": 733.8372807017544,
+        "predicted_yield": 1122.228408701843,
+        "difference_yield": 388.39112800008854,
+        "percent_difference": 52.92605570933622,
+        "facility_power_kw": 2280,
+        "reference_yield": 1047.0
+      },
+      "67053e81efb7170008cefcce": {
+        "facility_name": "Ferschweiler",
+        "actual_yield": 7.055720980126471,
+        "predicted_yield": 1141.2808289801962,
+        "difference_yield": 1134.2251080000697,
+        "percent_difference": 16075.25455151628,
+        "facility_power_kw": 17712,
+        "reference_yield": 1057.35
+      },
+      "60e842ced194e400073e01b4": {
+        "facility_name": "Lengenfeld",
+        "actual_yield": 5.266708753101683,
+        "predicted_yield": 1219.3237630846124,
+        "difference_yield": 1214.0570543315107,
+        "percent_difference": 23051.532014496253,
+        "facility_power_kw": 570.255,
+        "reference_yield": 950.0
+      },
+      "6392fcad816f64000994be8c": {
+        "facility_name": "Rietzneuendorf-Staakow",
+        "actual_yield": 7.116262389149714,
+        "predicted_yield": 815.8636982775748,
+        "difference_yield": 808.7474358884251,
+        "percent_difference": 11364.778189201343,
+        "facility_power_kw": 5520.96,
+        "reference_yield": 1064.0
+      },
+      "60e83b8a25e901000796170a": {
+        "facility_name": "Greifenhain_BT4 (Linear)",
+        "actual_yield": 5.913608128159344,
+        "predicted_yield": 1096.1661241445058,
+        "difference_yield": 1090.2525160163466,
+        "percent_difference": 18436.333493671926,
+        "facility_power_kw": 397.63,
+        "reference_yield": 950.0
+      },
+      "63c6c5bab000490008a4ffa8": {
+        "facility_name": "Perfekta",
+        "actual_yield": 806.0808665745113,
+        "predicted_yield": 1131.537937501668,
+        "difference_yield": 325.4570709271567,
+        "percent_difference": 40.37523831947605,
+        "facility_power_kw": 426.815,
+        "reference_yield": 817.0
+      },
+      "61376b971a69ce00071def65": {
+        "facility_name": "Beerwalde 2",
+        "actual_yield": 1072.8310419161678,
+        "predicted_yield": 1212.0610284327124,
+        "difference_yield": 139.2299865165446,
+        "percent_difference": 12.97781114422901,
+        "facility_power_kw": 4175,
+        "reference_yield": 950.0
+      },
+      "63d22db01367b10008fd258d": {
+        "facility_name": "Betriebshof Wittfeldstra\u00dfe",
+        "actual_yield": 820.1186386386387,
+        "predicted_yield": 1159.002892562428,
+        "difference_yield": 338.8842539237894,
+        "percent_difference": 41.32136961139214,
+        "facility_power_kw": 99.9,
+        "reference_yield": 858.0000000000001
+      },
+      "63d0e1c7b000490008a50069": {
+        "facility_name": "NIAG",
+        "actual_yield": 806.3930891924359,
+        "predicted_yield": 1131.5886823523927,
+        "difference_yield": 325.19559315995673,
+        "percent_difference": 40.327180071151716,
+        "facility_power_kw": 357.99,
+        "reference_yield": 870.0
+      },
+      "614314951a69ce00071df1f9": {
+        "facility_name": "K\u00f6then BF_2",
+        "actual_yield": 6.492655800000001,
+        "predicted_yield": 1143.4866858034934,
+        "difference_yield": 1136.9940300034934,
+        "percent_difference": 17512.002253430608,
+        "facility_power_kw": 5000,
+        "reference_yield": 1018.0
+      },
+      "63d0e5511367b10008fd2575": {
+        "facility_name": "Deflex",
+        "actual_yield": 709.5866479465195,
+        "predicted_yield": 1085.0759772868246,
+        "difference_yield": 375.48932934030506,
+        "percent_difference": 52.916628353554515,
+        "facility_power_kw": 79.9,
+        "reference_yield": 869.9999999999999
+      },
+      "633175ef5df66000085b67fa": {
+        "facility_name": "G\u00fcstrow III",
+        "actual_yield": 945.6973334194242,
+        "predicted_yield": 1129.6144839080227,
+        "difference_yield": 183.9171504885985,
+        "percent_difference": 19.447781440135433,
+        "facility_power_kw": 3484.8,
+        "reference_yield": 967.3
+      },
+      "63d22c85345d90000849afd4": {
+        "facility_name": "Kulturhalle",
+        "actual_yield": 872.7489159891597,
+        "predicted_yield": 1159.3679308840808,
+        "difference_yield": 286.61901489492107,
+        "percent_difference": 32.84094768196551,
+        "facility_power_kw": 29.52,
+        "reference_yield": 860.0
+      },
+      "5ee8c4c1e228fc0007d40d8d": {
+        "facility_name": "10003 Singen Friedrich-W\u00f6hler-Gymnasium",
+        "actual_yield": 5.1595085470085476,
+        "predicted_yield": 1212.045151198587,
+        "difference_yield": 1206.8856426515786,
+        "percent_difference": 23391.48451166582,
+        "facility_power_kw": 18.72,
+        "reference_yield": 950.0000000000001
+      },
+      "61433a01ef9dd10007031308": {
+        "facility_name": "K\u00f6then BF_10",
+        "actual_yield": 7.142971895689773,
+        "predicted_yield": 1088.8015117151513,
+        "difference_yield": 1081.6585398194616,
+        "percent_difference": 15142.976279553306,
+        "facility_power_kw": 7401,
+        "reference_yield": 1049.0
+      },
+      "645910866b402c0009c0b5f3": {
+        "facility_name": "UA Rheinpreu\u00dfen",
+        "actual_yield": 559.0846938775511,
+        "predicted_yield": 1202.0942165537983,
+        "difference_yield": 643.0095226762472,
+        "percent_difference": 115.01111186153794,
+        "facility_power_kw": 9.8,
+        "reference_yield": 919.9999999999999
+      },
+      "60f810e252a9f9000707df6b": {
+        "facility_name": "Anklam Amber",
+        "actual_yield": 520.0567810114898,
+        "predicted_yield": 1112.8478409085453,
+        "difference_yield": 592.7910598970556,
+        "percent_difference": 113.98583415143642,
+        "facility_power_kw": 1192.3,
+        "reference_yield": 950.0
+      },
+      "63d22f7baa24ea0008ded5d6": {
+        "facility_name": "Druckerei Meiwes",
+        "actual_yield": 801.7002470355727,
+        "predicted_yield": 1077.8956920436772,
+        "difference_yield": 276.19544500810446,
+        "percent_difference": 34.45121116394632,
+        "facility_power_kw": 60.72,
+        "reference_yield": 900.0
+      },
+      "63d0e286b000490008a5006c": {
+        "facility_name": "Minrath",
+        "actual_yield": 788.9459833414502,
+        "predicted_yield": 1131.0613710138875,
+        "difference_yield": 342.11538767243735,
+        "percent_difference": 43.36360091770342,
+        "facility_power_kw": 297.745,
+        "reference_yield": 870.0
+      },
+      "61a62bd673f9af0007fcaa5a": {
+        "facility_name": "11095 Jessnitz",
+        "actual_yield": 6.71084947799304,
+        "predicted_yield": 939.3718515709475,
+        "difference_yield": 932.6610020929544,
+        "percent_difference": 13897.808394472853,
+        "facility_power_kw": 749.99,
+        "reference_yield": 921.0
+      },
+      "60e8390275da360007fb93a7": {
+        "facility_name": "Greifenhain_BT1 (Linear)",
+        "actual_yield": 6.470297433964635,
+        "predicted_yield": 1146.167470958034,
+        "difference_yield": 1139.6971735240695,
+        "percent_difference": 17614.29339463498,
+        "facility_power_kw": 477.585,
+        "reference_yield": 950.0
+      },
+      "634a973077ab92000901c0d8": {
+        "facility_name": "L\u00fcptitz III",
+        "actual_yield": 1001.1558687402188,
+        "predicted_yield": 1245.121602524843,
+        "difference_yield": 243.96573378462415,
+        "percent_difference": 24.368406698910206,
+        "facility_power_kw": 6000.01,
+        "reference_yield": 996.0
+      },
+      "64ac20823f6c950008e8e9d6": {
+        "facility_name": "PVA29 | Erlenbachhalle Ober-Erlenbach",
+        "actual_yield": 2.4229901960784317,
+        "predicted_yield": 1151.9692561717632,
+        "difference_yield": 1149.5462659756847,
+        "percent_difference": 47443.29002388065,
+        "facility_power_kw": 20.4,
+        "reference_yield": 920.0000000000001
+      },
+      "6189108f587f4f0007a6b7d9": {
+        "facility_name": "SP Ammelst\u00e4dt",
+        "actual_yield": 6.160401002506266,
+        "predicted_yield": 1544.2848047505693,
+        "difference_yield": 1538.124403748063,
+        "percent_difference": 24967.926651565384,
+        "facility_power_kw": 746.13,
+        "reference_yield": 978.71
+      },
+      "60e8458a25e901000796172a": {
+        "facility_name": "Greifenhain_BT2 (Linear)",
+        "actual_yield": 5.111784254189878,
+        "predicted_yield": 1146.1708204958015,
+        "difference_yield": 1141.0590362416117,
+        "percent_difference": 22322.12823352906,
+        "facility_power_kw": 209.135,
+        "reference_yield": 950.0
+      },
+      "60f5456a80b08100072e1465": {
+        "facility_name": "Nakskov 02 (old XIII)",
+        "actual_yield": 9.8139,
+        "predicted_yield": 1148.4737472106688,
+        "difference_yield": 1138.6598472106687,
+        "percent_difference": 11602.521395272712,
+        "facility_power_kw": 400,
+        "reference_yield": null
+      },
+      "63d0e6b5b567420008fb97fe": {
+        "facility_name": "Jostenhof 2",
+        "actual_yield": 654.8101360830527,
+        "predicted_yield": 981.4258855755154,
+        "difference_yield": 326.61574949246267,
+        "percent_difference": 49.87945841006903,
+        "facility_power_kw": 142.56,
+        "reference_yield": 780.0
+      },
+      "60f8121a52a9f9000707df6d": {
+        "facility_name": "Anklam Magenta",
+        "actual_yield": 947.2694152923541,
+        "predicted_yield": 1112.8478409085453,
+        "difference_yield": 165.57842561619123,
+        "percent_difference": 17.47954942312679,
+        "facility_power_kw": 667,
+        "reference_yield": 950.0
+      },
+      "64b83a250a73b7000841c2c7": {
+        "facility_name": "PVA07 | Seemenbachhalle B\u00fcdingen-Wolferborn",
+        "actual_yield": 4.941341411864168,
+        "predicted_yield": 1057.721124427995,
+        "difference_yield": 1052.7797830161308,
+        "percent_difference": 21305.546313565887,
+        "facility_power_kw": 70.97,
+        "reference_yield": 950.0
+      },
+      "623862e50359940009c601d7": {
+        "facility_name": "PVA06 | Wolfgang-Konrad-Halle",
+        "actual_yield": 4.694104609929078,
+        "predicted_yield": 1182.6067754409933,
+        "difference_yield": 1177.9126708310641,
+        "percent_difference": 25093.44739227831,
+        "facility_power_kw": 22.56,
+        "reference_yield": 950.0
+      },
+      "63da14bafa95820008db619f": {
+        "facility_name": "Klingerhuf",
+        "actual_yield": 797.6362908490966,
+        "predicted_yield": 1008.9362103372022,
+        "difference_yield": 211.29991948810562,
+        "percent_difference": 26.490760502280242,
+        "facility_power_kw": 283.36,
+        "reference_yield": 870.0
+      },
+      "61b1c5640785f30007a5773f": {
+        "facility_name": "PP-Wensauer Beton_Stockstadt_II",
+        "actual_yield": 724.8444650587509,
+        "predicted_yield": 1063.7821073272864,
+        "difference_yield": 338.93764226853557,
+        "percent_difference": 46.760051101592346,
+        "facility_power_kw": 323.4,
+        "reference_yield": 947.4900000000001
+      },
+      "60f0350d6480b10007ef9147": {
+        "facility_name": "Aosta (Calv\u00f6rde) 3",
+        "actual_yield": 897.0147352647446,
+        "predicted_yield": 1122.29000485862,
+        "difference_yield": 225.27526959387546,
+        "percent_difference": 25.11388729053462,
+        "facility_power_kw": 960.96,
+        "reference_yield": 989.0
+      },
+      "612f61d3097a3e000705b036": {
+        "facility_name": "Solarpark Lutstrut",
+        "actual_yield": 981210.055691618,
+        "predicted_yield": 292.681347519697,
+        "difference_yield": -980917.3743440983,
+        "percent_difference": -99.97017138727615,
+        "facility_power_kw": 4252.13,
+        "reference_yield": 1091.0
+      },
+      "60e8440375da360007fb93dc": {
+        "facility_name": "Soltos 1 - T\u00f6nisvorst",
+        "actual_yield": 4.846307785010483,
+        "predicted_yield": 1077.347321104036,
+        "difference_yield": 1072.5010133190253,
+        "percent_difference": 22130.270319112748,
+        "facility_power_kw": 589.145,
+        "reference_yield": 950.0
+      },
+      "625edd2ddf388e0008510b61": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H1",
+        "actual_yield": 6.308571428571429,
+        "predicted_yield": 2144.196792473177,
+        "difference_yield": 2137.888221044606,
+        "percent_difference": 33888.62669228316,
+        "facility_power_kw": 9.1,
+        "reference_yield": 900.0
+      },
+      "63d22a66fa95820008db5d05": {
+        "facility_name": "Gymnasium Filder Benden",
+        "actual_yield": 795.4218824328913,
+        "predicted_yield": 1083.163842470169,
+        "difference_yield": 287.74196003727764,
+        "percent_difference": 36.17476038717781,
+        "facility_power_kw": 58.86,
+        "reference_yield": 860.0
+      },
+      "64f76bbab04c850008f013c3": {
+        "facility_name": "UFV Iracema",
+        "actual_yield": 318.8403355278355,
+        "predicted_yield": 1630.7894341609378,
+        "difference_yield": 1311.9490986331023,
+        "percent_difference": 411.47525969736216,
+        "facility_power_kw": 1385.28,
+        "reference_yield": 1430.035805
+      },
+      "634a973f5df66000085b6d9a": {
+        "facility_name": "L\u00fcptitz IV",
+        "actual_yield": 904.5152812579099,
+        "predicted_yield": 1244.9619576391394,
+        "difference_yield": 340.4466763812295,
+        "percent_difference": 37.6385765321477,
+        "facility_power_kw": 1317,
+        "reference_yield": 996.0
+      },
+      "621e35e5d2e6ea0008f923de": {
+        "facility_name": "Bp.IV.ker_NVSolar",
+        "actual_yield": 6.170682148040639,
+        "predicted_yield": 1195.0527293797475,
+        "difference_yield": 1188.8820472317068,
+        "percent_difference": 19266.622695988473,
+        "facility_power_kw": 3.445,
+        "reference_yield": 8.0
+      },
+      "63d0d3971367b10008fd2573": {
+        "facility_name": "Schulzentrum NKV",
+        "actual_yield": 761.7489908463386,
+        "predicted_yield": 1009.0685730918592,
+        "difference_yield": 247.31958224552056,
+        "percent_difference": 32.467333100203646,
+        "facility_power_kw": 266.56,
+        "reference_yield": 809.0
+      },
+      "670543e40ebf940008a4815c": {
+        "facility_name": "Herbsleben Freifl\u00e4che",
+        "actual_yield": 6.2510261882787255,
+        "predicted_yield": 1287.0631973016002,
+        "difference_yield": 1280.8121711133215,
+        "percent_difference": 20489.63054282139,
+        "facility_power_kw": 1733.6,
+        "reference_yield": 931.85
+      },
+      "634a9709d11b230008d132f9": {
+        "facility_name": "L\u00fcptitz I",
+        "actual_yield": 909.4021193129051,
+        "predicted_yield": 1244.9867547599679,
+        "difference_yield": 335.58463544706274,
+        "percent_difference": 36.901677302073175,
+        "facility_power_kw": 2513,
+        "reference_yield": 996.0
+      },
+      "63d23e7c1367b10008fd2592": {
+        "facility_name": "PVA14 | Rathaus Nieder-Florstadt",
+        "actual_yield": 6.298775510204082,
+        "predicted_yield": 1116.7369777846554,
+        "difference_yield": 1110.4382022744514,
+        "percent_difference": 17629.429727659448,
+        "facility_power_kw": 24.5,
+        "reference_yield": 900.0
+      },
+      "640b00d6af1d3c0009c3275a": {
+        "facility_name": "GER - L\u00fcbeck - Taschenmacherstra\u00dfe 14 - 16",
+        "actual_yield": 124.1136363636386,
+        "predicted_yield": 1018.4878952532497,
+        "difference_yield": 894.374258889611,
+        "percent_difference": 720.6091813063939,
+        "facility_power_kw": 117.92,
+        "reference_yield": 964.89
+      },
+      "63da0d38fa95820008db619e": {
+        "facility_name": "HGZ - Henri-Guidet-Zentrum",
+        "actual_yield": 888.50808982684,
+        "predicted_yield": 1114.320035456484,
+        "difference_yield": 225.81194562964401,
+        "percent_difference": 25.414731527503836,
+        "facility_power_kw": 73.92,
+        "reference_yield": 870.0
+      },
+      "5fa08a838b34940008e2aa29": {
+        "facility_name": "9019 SP Deponie Moos",
+        "actual_yield": 1113.9599338454973,
+        "predicted_yield": 1322.4028512375496,
+        "difference_yield": 208.44291739205232,
+        "percent_difference": 18.711886402636335,
+        "facility_power_kw": 749.76,
+        "reference_yield": 1000.0
+      },
+      "62a077e2762f99000896f5e3": {
+        "facility_name": "Boock",
+        "actual_yield": 918.4076126234643,
+        "predicted_yield": 1098.7102143430677,
+        "difference_yield": 180.30260171960344,
+        "percent_difference": 19.632089198886604,
+        "facility_power_kw": 41.51,
+        "reference_yield": 1073.91
+      },
+      "60f813b452a9f9000707df6e": {
+        "facility_name": "Anklam Purple",
+        "actual_yield": 1012.3289440577042,
+        "predicted_yield": 1112.8478409085453,
+        "difference_yield": 100.51889685084109,
+        "percent_difference": 9.929469807307155,
+        "facility_power_kw": 1192.3,
+        "reference_yield": 950.0
+      },
+      "60e83cfe75da360007fb93bf": {
+        "facility_name": "Greifenhain_BT5 (Linear)",
+        "actual_yield": 5.118779095960354,
+        "predicted_yield": 1096.1794809452324,
+        "difference_yield": 1091.060701849272,
+        "percent_difference": 21314.862028531705,
+        "facility_power_kw": 532.72,
+        "reference_yield": 950.0
+      },
+      "60e83d83d194e400073e019f": {
+        "facility_name": "Soltos 1 - Kempen",
+        "actual_yield": 5.508105369807498,
+        "predicted_yield": 1186.961705856476,
+        "difference_yield": 1181.4536004866686,
+        "percent_difference": 21449.364548520956,
+        "facility_power_kw": 690.9,
+        "reference_yield": 950.0
+      },
+      "60a63137302a140007335a7a": {
+        "facility_name": "Jostenhof 3",
+        "actual_yield": 1486.5825199792425,
+        "predicted_yield": 947.5036978146776,
+        "difference_yield": -539.0788221645649,
+        "percent_difference": -36.26295983704236,
+        "facility_power_kw": 240.875,
+        "reference_yield": 852.0
+      },
+      "631eeb3c4cafa4000836a0ae": {
+        "facility_name": "Werneuchen-A",
+        "actual_yield": 727.0260847938657,
+        "predicted_yield": 1109.6044012673397,
+        "difference_yield": 382.57831647347393,
+        "percent_difference": 52.62236451694119,
+        "facility_power_kw": 6835.4,
+        "reference_yield": 962.63
+      },
+      "60f036a952a9f9000707da3b": {
+        "facility_name": "Silbersee/Silverlake 01",
+        "actual_yield": 6.999045883361922,
+        "predicted_yield": 1108.1495628547482,
+        "difference_yield": 1101.1505169713862,
+        "percent_difference": 15732.86609806392,
+        "facility_power_kw": 932.8,
+        "reference_yield": 979.0
+      },
+      "63c96f6c345d90000849af59": {
+        "facility_name": "Solarpark M\u00fchlenfeld",
+        "actual_yield": 1491.895007700404,
+        "predicted_yield": 1126.5115900158444,
+        "difference_yield": -365.3834176845596,
+        "percent_difference": -24.491228658761916,
+        "facility_power_kw": 3505.92,
+        "reference_yield": 921.0000000000001
+      },
+      "60e843b925e9010007961728": {
+        "facility_name": "Weidenhausen",
+        "actual_yield": 37093.09250085999,
+        "predicted_yield": 1108.645591952081,
+        "difference_yield": -35984.44690890791,
+        "percent_difference": -97.01118047268132,
+        "facility_power_kw": 901.17,
+        "reference_yield": 905.5
+      },
+      "63d2208afa95820008db5d04": {
+        "facility_name": "Kita Am Pandyck",
+        "actual_yield": 836.5147792022784,
+        "predicted_yield": 1183.6712245028928,
+        "difference_yield": 347.15644530061434,
+        "percent_difference": 41.500336148474446,
+        "facility_power_kw": 28.08,
+        "reference_yield": 860.0
+      },
+      "62a9b3e529f4320008ba9161": {
+        "facility_name": "Solarpark Nordhausen (Freifl\u00e4che)",
+        "actual_yield": 895.4282929490511,
+        "predicted_yield": 1324.2129046735697,
+        "difference_yield": 428.78461172451864,
+        "percent_difference": 47.88597982674153,
+        "facility_power_kw": 3006.12,
+        "reference_yield": 953.0
+      },
+      "61a0cf143c84ba000700063c": {
+        "facility_name": "Br\u00f6nnchesthal",
+        "actual_yield": 904.0121807099022,
+        "predicted_yield": 1232.6630331179383,
+        "difference_yield": 328.65085240803614,
+        "percent_difference": 36.354692936764785,
+        "facility_power_kw": 7876.7,
+        "reference_yield": 923.875
+      },
+      "60e8431975da360007fb93c9": {
+        "facility_name": "Rostock",
+        "actual_yield": 5.093362726852605,
+        "predicted_yield": 1198.4964815832732,
+        "difference_yield": 1193.4031188564206,
+        "percent_difference": 23430.55428910858,
+        "facility_power_kw": 800.63,
+        "reference_yield": 950.0
+      },
+      "60e84204d194e400073e01b2": {
+        "facility_name": "Neudorf",
+        "actual_yield": 8106.908114995468,
+        "predicted_yield": 1156.1976268355836,
+        "difference_yield": -6950.710488159884,
+        "percent_difference": -85.73811852268378,
+        "facility_power_kw": 529.76,
+        "reference_yield": 950.0
+      },
+      "610031eb2398df000728fc54": {
+        "facility_name": "PVA Conz & Stra\u00dfer",
+        "actual_yield": 2095.69932038835,
+        "predicted_yield": 2099.327732106895,
+        "difference_yield": 3.628411718545067,
+        "percent_difference": 0.17313608317975182,
+        "facility_power_kw": 82.4,
+        "reference_yield": 978.0
+      },
+      "60f8144e52a9f9000707df6f": {
+        "facility_name": "Anklam Red",
+        "actual_yield": 1005.2558654634935,
+        "predicted_yield": 1112.8478409085453,
+        "difference_yield": 107.59197544505184,
+        "percent_difference": 10.702944309153013,
+        "facility_power_kw": 1219,
+        "reference_yield": 950.0
+      },
+      "63aad970aa24ea0008decf6b": {
+        "facility_name": "Solarpark Markt Indersdorf",
+        "actual_yield": 992.0897714100967,
+        "predicted_yield": 1184.7727471245048,
+        "difference_yield": 192.68297571440814,
+        "percent_difference": 19.421929473231053,
+        "facility_power_kw": 1461.6,
+        "reference_yield": 1060.0
+      },
+      "60f8375352a9f9000707df8a": {
+        "facility_name": "Goldklee - Kall",
+        "actual_yield": 6.764705882352941,
+        "predicted_yield": 1106.1150245055187,
+        "difference_yield": 1099.3503186231658,
+        "percent_difference": 16251.265579646799,
+        "facility_power_kw": 212.16,
+        "reference_yield": 950.0
+      },
+      "63ce8a07345d90000849af88": {
+        "facility_name": "PVA03 | Gerhart-Hauptmann-Stra\u00dfe 6",
+        "actual_yield": 1100.1718494382044,
+        "predicted_yield": 1202.7284483814735,
+        "difference_yield": 102.55659894326914,
+        "percent_difference": 9.321870850961965,
+        "facility_power_kw": 8.9,
+        "reference_yield": 1100.0
+      },
+      "674831e8c850510009f7728c": {
+        "facility_name": "Herbsleben Agrarhof Dach",
+        "actual_yield": 529.3985548416913,
+        "predicted_yield": 1141.7552128406544,
+        "difference_yield": 612.3566579989631,
+        "percent_difference": 115.67025493337042,
+        "facility_power_kw": 351.05,
+        "reference_yield": 818.2999999999998
+      },
+      "614852bc47bd0f0007436da8": {
+        "facility_name": "Barth",
+        "actual_yield": 1031.0614705124306,
+        "predicted_yield": 1184.7609312761865,
+        "difference_yield": 153.69946076375595,
+        "percent_difference": 14.906915364354404,
+        "facility_power_kw": 10242.96,
+        "reference_yield": 962.6999999999999
+      },
+      "63d2263b345d90000849afd3": {
+        "facility_name": "Pestalozzi-Schule",
+        "actual_yield": 865.326865254993,
+        "predicted_yield": 1187.697494335678,
+        "difference_yield": 322.3706290806849,
+        "percent_difference": 37.25420324095558,
+        "facility_power_kw": 23.85,
+        "reference_yield": 880.0
+      },
+      "63da18c0fa95820008db61a1": {
+        "facility_name": "Baubetriebshof Rheurdt",
+        "actual_yield": 874.7239506172834,
+        "predicted_yield": 1126.610148536291,
+        "difference_yield": 251.8861979190076,
+        "percent_difference": 28.796078779054145,
+        "facility_power_kw": 16.2,
+        "reference_yield": 880.0
+      },
+      "63c96754fa95820008db5c9b": {
+        "facility_name": "Solarpark Vinn",
+        "actual_yield": 5.645790681558888,
+        "predicted_yield": 1049.5101911106553,
+        "difference_yield": 1043.8644004290963,
+        "percent_difference": 18489.250829626395,
+        "facility_power_kw": 3795.27,
+        "reference_yield": 974.0
+      },
+      "60f8149c52a9f9000707df71": {
+        "facility_name": "Anklam Yellow/Gul",
+        "actual_yield": 970.2608695652174,
+        "predicted_yield": 1112.8478409085453,
+        "difference_yield": 142.58697134332795,
+        "percent_difference": 14.695735530097432,
+        "facility_power_kw": 1219,
+        "reference_yield": 950.0
+      },
+      "60f0349280b08100072e10bf": {
+        "facility_name": "Aosta (Calv\u00f6rde) 2",
+        "actual_yield": 948.8107418524874,
+        "predicted_yield": 1122.2900048586205,
+        "difference_yield": 173.47926300613312,
+        "percent_difference": 18.283863720537866,
+        "facility_power_kw": 932.8,
+        "reference_yield": 965.0
+      },
+      "614208a21a69ce00071df1e4": {
+        "facility_name": "K\u00f6then BF_3",
+        "actual_yield": 35.167953794139734,
+        "predicted_yield": 1143.4978391689071,
+        "difference_yield": 1108.3298853747674,
+        "percent_difference": 3151.533614558649,
+        "facility_power_kw": 5324,
+        "reference_yield": 1082.0
+      },
+      "615c340a09446800078ae5e7": {
+        "facility_name": "Beilingen",
+        "actual_yield": 829.6184532204974,
+        "predicted_yield": 1220.6143451042617,
+        "difference_yield": 390.99589188376433,
+        "percent_difference": 47.1296040204936,
+        "facility_power_kw": 2127,
+        "reference_yield": 1058.0
+      },
+      "602bcfb8ef11870007d6ac69": {
+        "facility_name": "PVA Erocontur",
+        "actual_yield": 940.2436323366555,
+        "predicted_yield": 1119.5153706340675,
+        "difference_yield": 179.27173829741196,
+        "percent_difference": 19.066519796777893,
+        "facility_power_kw": 99.33,
+        "reference_yield": 1035.91
+      },
+      "60a630c7302a140007335a79": {
+        "facility_name": "Jostenhof 1",
+        "actual_yield": 882.1772758489136,
+        "predicted_yield": 1060.8503242467473,
+        "difference_yield": 178.67304839783367,
+        "percent_difference": 20.25364439657525,
+        "facility_power_kw": 262.1,
+        "reference_yield": 830.0
+      },
+      "61485316e93d850007983c46": {
+        "facility_name": "K\u00f6nigsbr\u00fcck",
+        "actual_yield": 895.6149708011383,
+        "predicted_yield": 1229.422737872366,
+        "difference_yield": 333.8077670712278,
+        "percent_difference": 37.27134739302457,
+        "facility_power_kw": 11956.8,
+        "reference_yield": 947.1825
+      },
+      "63dbabd4b000490008a505ab": {
+        "facility_name": "Wriezen",
+        "actual_yield": 645.4310973565456,
+        "predicted_yield": 1226.0655543146074,
+        "difference_yield": 580.6344569580618,
+        "percent_difference": 89.96071917453814,
+        "facility_power_kw": 749.65,
+        "reference_yield": 997.0
+      },
+      "625edde75e45680008a0f59e": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H2",
+        "actual_yield": 6.417199211045364,
+        "predicted_yield": 1241.626647480224,
+        "difference_yield": 1235.2094482691787,
+        "percent_difference": 19248.41987362837,
+        "facility_power_kw": 12.675,
+        "reference_yield": 900.0
+      },
+      "60f543636480b10007ef94be": {
+        "facility_name": "Nakskov 06 (old VIII)",
+        "actual_yield": 1.20625,
+        "predicted_yield": 1148.4737472106688,
+        "difference_yield": 1147.2674972106688,
+        "percent_difference": 95110.25883611762,
+        "facility_power_kw": 400,
+        "reference_yield": null
+      },
+      "60e8475425e901000796172e": {
+        "facility_name": "Goldklee - Bleicherode",
+        "actual_yield": 6.857414810584429,
+        "predicted_yield": 901.5161917488241,
+        "difference_yield": 894.6587769382397,
+        "percent_difference": 13046.589737539758,
+        "facility_power_kw": 525.3,
+        "reference_yield": 950.0
+      },
+      "60f837e632a5440007988d62": {
+        "facility_name": "Goldklee - Mendez/Dortmund",
+        "actual_yield": 6.1063339731286,
+        "predicted_yield": 934.8470447095601,
+        "difference_yield": 928.7407107364315,
+        "percent_difference": 15209.464710306176,
+        "facility_power_kw": 521,
+        "reference_yield": 950.0
+      },
+      "61642a682367aa00089982ae": {
+        "facility_name": "G\u00fcstrow",
+        "actual_yield": 78.1802667689291,
+        "predicted_yield": 1104.1533073650116,
+        "difference_yield": 1025.9730405960825,
+        "percent_difference": 1312.317139603099,
+        "facility_power_kw": 30666.24,
+        "reference_yield": 939.186
+      },
+      "63d0e0f0345d90000849afc0": {
+        "facility_name": "HBZ - Handw. Bildungszentrum",
+        "actual_yield": 831.1385953619338,
+        "predicted_yield": 1179.801310691847,
+        "difference_yield": 348.6627153299132,
+        "percent_difference": 41.95000897270111,
+        "facility_power_kw": 316.08,
+        "reference_yield": 890.0000000000001
+      },
+      "64d2374e70e05d00093a58da": {
+        "facility_name": "Kogel BF KW",
+        "actual_yield": 5.894761274934521,
+        "predicted_yield": 1088.2167556669522,
+        "difference_yield": 1082.3219943920176,
+        "percent_difference": 18360.743445103126,
+        "facility_power_kw": 9995.18,
+        "reference_yield": 1001.3083
+      },
+      "625ede1b92216500083e8e49": {
+        "facility_name": "SWSG STGT Klagenfurterstra\u00dfe H3",
+        "actual_yield": 6.322788461538462,
+        "predicted_yield": 2002.1845959623904,
+        "difference_yield": 1995.861807500852,
+        "percent_difference": 31566.164511776482,
+        "facility_power_kw": 10.4,
+        "reference_yield": 900.0
+      },
+      "64d2415b37acad00088ceece": {
+        "facility_name": "Kogel BF KO",
+        "actual_yield": 564.122782885448,
+        "predicted_yield": 1088.2107252288147,
+        "difference_yield": 524.0879423433666,
+        "percent_difference": 92.90316899854567,
+        "facility_power_kw": 9886.76,
+        "reference_yield": 1012.2437
+      },
+      "63d23ea3345d90000849afe0": {
+        "facility_name": "PVA30 | Kita Hesseng\u00e4rten Ober-Eschbach",
+        "actual_yield": 4.7335,
+        "predicted_yield": 1142.1991691741102,
+        "difference_yield": 1137.4656691741102,
+        "percent_difference": 24030.118710766033,
+        "facility_power_kw": 48,
+        "reference_yield": 935.6
+      },
+      "60f836dc80b08100072e15b0": {
+        "facility_name": "Goldklee - D\u00fcren",
+        "actual_yield": 5.792588134998246,
+        "predicted_yield": 1116.8887677590872,
+        "difference_yield": 1111.096179624089,
+        "percent_difference": 19181.342669798247,
+        "facility_power_kw": 398.82,
+        "reference_yield": 950.0
+      },
+      "61e81936718f7c00071cb57e": {
+        "facility_name": "Solarpark Xanten",
+        "actual_yield": 1025.9827002618736,
+        "predicted_yield": 1041.3911957038572,
+        "difference_yield": 15.408495441983632,
+        "percent_difference": 1.501827997494572,
+        "facility_power_kw": 4349.43,
+        "reference_yield": 984.0
+      },
+      "6392fc0370d1b700089960c9": {
+        "facility_name": "Hambergen",
+        "actual_yield": 193.13613717908774,
+        "predicted_yield": 1058.5643062801944,
+        "difference_yield": 865.4281691011066,
+        "percent_difference": 448.0923051177254,
+        "facility_power_kw": 9533.76,
+        "reference_yield": 942.0
+      },
+      "63ce8bedaa24ea0008ded59e": {
+        "facility_name": "PVA04 | Gerhart-Hauptmann-Stra\u00dfe 8",
+        "actual_yield": 1097.621123595505,
+        "predicted_yield": 1202.7271911164912,
+        "difference_yield": 105.10606752098624,
+        "percent_difference": 9.575805827851386,
+        "facility_power_kw": 8.9,
+        "reference_yield": 1100.0
+      },
+      "60a24e261d401c00074e3b9c": {
+        "facility_name": "Altvater Nufringen",
+        "actual_yield": 5.482954545454546,
+        "predicted_yield": 1160.5308438538168,
+        "difference_yield": 1155.0478893083623,
+        "percent_difference": 21066.15839567583,
+        "facility_power_kw": 154.88,
+        "reference_yield": 1000.0
+      },
+      "63d22ea8aa24ea0008ded5d4": {
+        "facility_name": "Wasserwerk Niep",
+        "actual_yield": 851.6199028182704,
+        "predicted_yield": 1170.0558277806103,
+        "difference_yield": 318.43592496234,
+        "percent_difference": 37.391789918077095,
+        "facility_power_kw": 25.725,
+        "reference_yield": 870.0
+      },
+      "61376b631a69ce00071def64": {
+        "facility_name": "Beerwalde 1",
+        "actual_yield": 5612.793697868397,
+        "predicted_yield": 1212.0610284327124,
+        "difference_yield": -4400.732669435685,
+        "percent_difference": -78.40538787497172,
+        "facility_power_kw": 1079,
+        "reference_yield": 950.0
+      },
+      "623390768d486f000826986d": {
+        "facility_name": "Bremen Cloud Log",
+        "actual_yield": 2.858992938952479,
+        "predicted_yield": 1016.085370150225,
+        "difference_yield": 1013.2263772112725,
+        "percent_difference": 35439.97480394315,
+        "facility_power_kw": 961,
+        "reference_yield": 950.0
+      },
+      "60e8467225e901000796172b": {
+        "facility_name": "Greifenhain_BT3 (Linear)",
+        "actual_yield": 6.749288538432329,
+        "predicted_yield": 1102.5309028512204,
+        "difference_yield": 1095.781614312788,
+        "percent_difference": 16235.512944410397,
+        "facility_power_kw": 447.67,
+        "reference_yield": 950.0
+      },
+      "63ceb029b000490008a50058": {
+        "facility_name": "PVA37 | Rosbach-Rodheim Erich-K\u00e4stner-Schule",
+        "actual_yield": 5.3684413580246915,
+        "predicted_yield": 1049.1843451654775,
+        "difference_yield": 1043.8159038074527,
+        "percent_difference": 19443.55603786502,
+        "facility_power_kw": 64.8,
+        "reference_yield": 880.0
+      },
+      "60f0355c6480b10007ef9148": {
+        "facility_name": "Aosta (Calv\u00f6rde) 4",
+        "actual_yield": 851.0857683982572,
+        "predicted_yield": 1122.29000485862,
+        "difference_yield": 271.20423646036284,
+        "percent_difference": 31.86567635489535,
+        "facility_power_kw": 960.96,
+        "reference_yield": 989.0
+      },
+      "631eebe54cafa4000836a0af": {
+        "facility_name": "Werneuchen-B",
+        "actual_yield": 673.853993126,
+        "predicted_yield": 1109.6044012673397,
+        "difference_yield": 435.7504081413397,
+        "percent_difference": 64.665404165656,
+        "facility_power_kw": 12035.28,
+        "reference_yield": 962.63
+      },
+      "60f5452452a9f9000707de02": {
+        "facility_name": "Nakskov 01 (old XII)",
+        "actual_yield": 9.777600000000001,
+        "predicted_yield": 1624.2399206696023,
+        "difference_yield": 1614.4623206696024,
+        "percent_difference": 16511.84667678778,
+        "facility_power_kw": 400,
+        "reference_yield": 1002.76
+      },
+      "614852d2e93d850007983c44": {
+        "facility_name": "Niederg\u00f6rsdorf",
+        "actual_yield": 878.9205728595583,
+        "predicted_yield": 1224.8097377231531,
+        "difference_yield": 345.88916486359483,
+        "percent_difference": 39.35385921599813,
+        "facility_power_kw": 9986.13,
+        "reference_yield": 910.4175
+      },
+      "62837480c72aa90008e7768f": {
+        "facility_name": "- PVA Storck in Ohrdruf",
+        "actual_yield": 1050.386052340873,
+        "predicted_yield": 1142.0477361423052,
+        "difference_yield": 91.66168380143222,
+        "percent_difference": 8.726475717871205,
+        "facility_power_kw": 2459.2,
+        "reference_yield": 987.9999999999999
+      },
+      "63d22b59b000490008a5008e": {
+        "facility_name": "Schwing",
+        "actual_yield": 857.1861524445798,
+        "predicted_yield": 1126.6189934244435,
+        "difference_yield": 269.4328409798637,
+        "percent_difference": 31.432243767760067,
+        "facility_power_kw": 49.395,
+        "reference_yield": 860.0
+      },
+      "6516bd5abf205500080f37b1": {
+        "facility_name": "G-H-00002",
+        "actual_yield": 3.7086456771614196,
+        "predicted_yield": 1150.3210350703341,
+        "difference_yield": 1146.6123893931726,
+        "percent_difference": 30917.280571024632,
+        "facility_power_kw": 20.01,
+        "reference_yield": 907.5
+      },
+      "639841abd9fdab0009696459": {
+        "facility_name": "Freimersheim ",
+        "actual_yield": 7.410763737276706,
+        "predicted_yield": 1249.2768622384501,
+        "difference_yield": 1241.8660985011734,
+        "percent_difference": 16757.599385532863,
+        "facility_power_kw": 10305.9,
+        "reference_yield": 1140.52
+      },
+      "63d23ab5fa95820008db5d0a": {
+        "facility_name": "PVA25 | B\u00fcrgertreff Beienheim",
+        "actual_yield": 0.6270597127739984,
+        "predicted_yield": 1130.1186421073405,
+        "difference_yield": 1129.4915823945664,
+        "percent_difference": 180125.04381726272,
+        "facility_power_kw": 26.46,
+        "reference_yield": 880.0
+      },
+      "63d0cfde345d90000849afbc": {
+        "facility_name": "Dorsterfeldschule",
+        "actual_yield": 721.1230263157896,
+        "predicted_yield": 1008.6461532644208,
+        "difference_yield": 287.5231269486312,
+        "percent_difference": 39.871577588859424,
+        "facility_power_kw": 77.52,
+        "reference_yield": 834.0
+      },
+      "64009c1bc26eee0009b29a28": {
+        "facility_name": "GER - Erlbach - Reiter zu Waldberg 44 (Sch\u00e4chnerhof) II - Erweiterung",
+        "actual_yield": 691.9294836744882,
+        "predicted_yield": 548.1735430962183,
+        "difference_yield": -143.75594057826993,
+        "percent_difference": -20.776096982434495,
+        "facility_power_kw": 600.9,
+        "reference_yield": 950.0
+      },
+      "61891193541c180007b61404": {
+        "facility_name": "SP Sch\u00f6newalde",
+        "actual_yield": 926.3772186147312,
+        "predicted_yield": 1202.6938760089888,
+        "difference_yield": 276.3166573942576,
+        "percent_difference": 29.827661112764726,
+        "facility_power_kw": 739.2,
+        "reference_yield": 966.0735800000001
+      },
+      "63da0b37b000490008a50523": {
+        "facility_name": "PCC-Stadion",
+        "actual_yield": 766.4437756899592,
+        "predicted_yield": 949.4633029497269,
+        "difference_yield": 183.01952725976764,
+        "percent_difference": 23.879054545783465,
+        "facility_power_kw": 136.24,
+        "reference_yield": 845.0
+      },
+      "5fcf24bb8b10d40007b5b01d": {
+        "facility_name": "PVA Gebstedt",
+        "actual_yield": 971.8254165317326,
+        "predicted_yield": 1186.9327721936206,
+        "difference_yield": 215.10735566188805,
+        "percent_difference": 22.134361995755054,
+        "facility_power_kw": 555.78,
+        "reference_yield": 1025.0
+      },
+      "654b838b3e8e4c0008ebd457": {
+        "facility_name": "Mantel",
+        "actual_yield": 25.73666903708376,
+        "predicted_yield": 1147.9363418883715,
+        "difference_yield": 1122.1996728512877,
+        "percent_difference": 4360.314348505314,
+        "facility_power_kw": 7024.08,
+        "reference_yield": 1120.65
+      },
+      "60f7e26452a9f9000707df5a": {
+        "facility_name": "Horslunde 1",
+        "actual_yield": 1125.644733796297,
+        "predicted_yield": 1188.792625033101,
+        "difference_yield": 63.14789123680407,
+        "percent_difference": 5.609930854811929,
+        "facility_power_kw": 2246.4,
+        "reference_yield": 950.0
+      },
+      "6392fb75d9fdab0009696407": {
+        "facility_name": "Schleiz",
+        "actual_yield": 433.0329839162947,
+        "predicted_yield": 1116.943944891897,
+        "difference_yield": 683.9109609756023,
+        "percent_difference": 157.9350733956567,
+        "facility_power_kw": 11062,
+        "reference_yield": 930.0400000000001
+      },
+      "63ce892aaa24ea0008ded59c": {
+        "facility_name": "PVA02 | Jahnstra\u00dfe 19/21",
+        "actual_yield": 1002.7154637347043,
+        "predicted_yield": 1208.4903041869006,
+        "difference_yield": 205.77484045219637,
+        "percent_difference": 20.521757955718506,
+        "facility_power_kw": 19.95,
+        "reference_yield": 1100.0
+      },
+      "63ceb367b567420008fb97f1": {
+        "facility_name": "PVA18 | Rosbach-Rodheim Sporthalle",
+        "actual_yield": 526.3806622549039,
+        "predicted_yield": 1126.6883449037962,
+        "difference_yield": 600.3076826488923,
+        "percent_difference": 114.04440278586617,
+        "facility_power_kw": 122.4,
+        "reference_yield": 900.0
+      },
+      "61642a975b92d70007ba0e0a": {
+        "facility_name": "Nauroth",
+        "actual_yield": 858.6531259260854,
+        "predicted_yield": 1095.228312274727,
+        "difference_yield": 236.57518634864152,
+        "percent_difference": 27.55189251695642,
+        "facility_power_kw": 8495,
+        "reference_yield": 918.0
+      },
+      "60f0399f80b08100072e10c5": {
+        "facility_name": "Tango (Saltlake) SPV 1",
+        "actual_yield": 1.1187500000000004,
+        "predicted_yield": 1137.4966946279806,
+        "difference_yield": 1136.3779446279805,
+        "percent_difference": 101575.6822013837,
+        "facility_power_kw": 968,
+        "reference_yield": 962.02
+      },
+      "63c6c8ffaa24ea0008ded52f": {
+        "facility_name": "Geschwister-Scholl-Schule",
+        "actual_yield": 711.3597504124936,
+        "predicted_yield": 982.4980652059431,
+        "difference_yield": 271.1383147934496,
+        "percent_difference": 38.115498471234226,
+        "facility_power_kw": 191.52,
+        "reference_yield": 809.0000000000001
+      },
+      "63d0d25ab000490008a50068": {
+        "facility_name": "Baubetriebshof NKV",
+        "actual_yield": 824.0011896194487,
+        "predicted_yield": 1022.9865472154639,
+        "difference_yield": 198.9853575960152,
+        "percent_difference": 24.14867358236622,
+        "facility_power_kw": 191.52,
+        "reference_yield": 860.0
+      },
+      "63da0bfefa95820008db619d": {
+        "facility_name": "Pumpwerk Wittfeldstra\u00dfe",
+        "actual_yield": 2694271.442006803,
+        "predicted_yield": 1015.0770476598026,
+        "difference_yield": -2693256.364959143,
+        "percent_difference": -99.96232461837981,
+        "facility_power_kw": 58.8,
+        "reference_yield": 817.0
+      },
+      "657b551207d2de00087f27b6": {
+        "facility_name": "PVA19 | Bauhof Nidda",
+        "actual_yield": 0.9643877551020409,
+        "predicted_yield": 1113.9970776468326,
+        "difference_yield": 1113.0326898917306,
+        "percent_difference": 115413.39922694908,
+        "facility_power_kw": 58.8,
+        "reference_yield": 890.0
+      },
+      "60e8418025e9010007961716": {
+        "facility_name": "Goldklee - Zerbst",
+        "actual_yield": 6.34936945352639,
+        "predicted_yield": 1232.9626906001042,
+        "difference_yield": 1226.6133211465778,
+        "percent_difference": 19318.663532255578,
+        "facility_power_kw": 535.25,
+        "reference_yield": 950.0
+      },
+      "60e8435275da360007fb93ca": {
+        "facility_name": "Goldklee - Magdeburg",
+        "actual_yield": 6642.265878023133,
+        "predicted_yield": 1144.432239699086,
+        "difference_yield": -5497.833638324048,
+        "percent_difference": -82.77045422879563,
+        "facility_power_kw": 646.68,
+        "reference_yield": 950.0000000000001
+      },
+      "6148533ce93d850007983c47": {
+        "facility_name": "Hildburghausen I+II",
+        "actual_yield": 918.9959142904418,
+        "predicted_yield": 1137.6595405162643,
+        "difference_yield": 218.66362622582255,
+        "percent_difference": 23.7937539031012,
+        "facility_power_kw": 6032,
+        "reference_yield": 952.0
+      },
+      "63d0d0efaa24ea0008ded5b9": {
+        "facility_name": "Regenbogenschule",
+        "actual_yield": 613.7782301297153,
+        "predicted_yield": 1015.1595073988506,
+        "difference_yield": 401.38127726913524,
+        "percent_difference": 65.39516352417837,
+        "facility_power_kw": 228.57,
+        "reference_yield": 832.0
+      },
+      "64107032af1d3c0009c327d5": {
+        "facility_name": "UA Neukirchen",
+        "actual_yield": 513.2379017857144,
+        "predicted_yield": 973.5530634023922,
+        "difference_yield": 460.31516161667787,
+        "percent_difference": 89.68845831827662,
+        "facility_power_kw": 22.4,
+        "reference_yield": 776.0
+      },
+      "63594062f3b1f30008c4ff73": {
+        "facility_name": "M\u00f6ckernkiez G15",
+        "actual_yield": 932.7706018518522,
+        "predicted_yield": 1023.2595036124441,
+        "difference_yield": 90.48890176059183,
+        "percent_difference": 9.701088518542717,
+        "facility_power_kw": 43.2,
+        "reference_yield": 1012.1500000000001
+      },
+      "64943783b35e770008516302": {
+        "facility_name": "Grafschafter Gymnasium",
+        "actual_yield": 251.53345238095235,
+        "predicted_yield": 942.7337723320499,
+        "difference_yield": 691.2003199510975,
+        "percent_difference": 274.79459030533286,
+        "facility_power_kw": 67.2,
+        "reference_yield": 865.0
+      },
+      "60f0372152a9f9000707da3c": {
+        "facility_name": "Silbersee/Silverlake 02",
+        "actual_yield": 6.967956689536881,
+        "predicted_yield": 1164.2548451908165,
+        "difference_yield": 1157.2868885012797,
+        "percent_difference": 16608.69807412936,
+        "facility_power_kw": 932.8,
+        "reference_yield": 979.0
+      },
+      "60e841f375da360007fb93c7": {
+        "facility_name": "Neudorf - Engersen",
+        "actual_yield": 5.439687265072922,
+        "predicted_yield": 1205.5129291436167,
+        "difference_yield": 1200.0732418785437,
+        "percent_difference": 22061.438156269745,
+        "facility_power_kw": 665.1,
+        "reference_yield": 950.0
+      }
+    },
+    "summary": {
+      "total_facilities": 187,
+      "average_actual_yield": 1442209043.9517183,
+      "average_predicted_yield": 1150.1053311382127
+    }
+  },
+  "facility_list": [
+    "60f543db80b08100072e1460",
+    "629ef12dfb82e00008a1c33b",
+    "61828d23541c180007b61398",
+    "60990f25b7ba7c00077d7fc4",
+    "64d2452761cede0009328a6e",
+    "60f5444280b08100072e1461",
+    "63d23ed1fa95820008db5d0f",
+    "60f0378c6480b10007ef914a",
+    "60f544a152a9f9000707de01",
+    "6089503d5ad7c10007d53da7",
+    "60f7e36852a9f9000707df5b",
+    "60f8387e32a5440007988d63",
+    "63316fb45df66000085b6519",
+    "63da16f6aa24ea0008dedabe",
+    "63d23f2f345d90000849afe2",
+    "60f161d452a9f9000707dd8c",
+    "623ad9aa1bbca900084aa446",
+    "6389f4ab6e4e5600089a480f",
+    "6392fc2970d1b700089960ca",
+    "60f0360152a9f9000707da3a",
+    "614852fbe93d850007983c45",
+    "61e9562d718f7c00071cb763",
+    "633174db64a8fa0008ca5bae",
+    "63d0ce35345d90000849afbb",
+    "60f8362852a9f9000707df87",
+    "60f7e55732a5440007988d3d",
+    "61890fd8541c180007b61401",
+    "63d0cbe51367b10008fd256f",
+    "63ce84a71367b10008fd254d",
+    "620f7c3cb4cb6500072c458d",
+    "655f6198537ef90008726c2a",
+    "63d0e605b567420008fb97fd",
+    "63da1974fa95820008db61a2",
+    "67054436446af400087bcbfc",
+    "60f0333c6480b10007ef9145",
+    "650c22f9c32f840008928351",
+    "614338faef9dd10007031304",
+    "64590fee6b402c0009c0b5f2",
+    "63d0e00a345d90000849afbf",
+    "60e83c8575da360007fb93bd",
+    "634a971bf3b1f30008c4feac",
+    "60f81c8152a9f9000707df7d",
+    "61642ac0f12fdc0007642a62",
+    "60f7e2fa32a5440007988d3b",
+    "63c7937ffa95820008db5c68",
+    "60991c177df5b200077ca227",
+    "60f542f26480b10007ef94bd",
+    "61642a232367aa00089982ad",
+    "65116f971ca11c000890ca46",
+    "63a4274e345d90000849a8b6",
+    "63809ad6e747b2000826a247",
+    "6494340ae51b3200080dec60",
+    "60f7e3cc52a9f9000707df5c",
+    "60e847f675da360007fb93e0",
+    "60e83f2e75da360007fb93c2",
+    "67053e81efb7170008cefcce",
+    "60e842ced194e400073e01b4",
+    "6392fcad816f64000994be8c",
+    "60e83b8a25e901000796170a",
+    "63c6c5bab000490008a4ffa8",
+    "61376b971a69ce00071def65",
+    "63d22db01367b10008fd258d",
+    "63d0e1c7b000490008a50069",
+    "614314951a69ce00071df1f9",
+    "63d0e5511367b10008fd2575",
+    "633175ef5df66000085b67fa",
+    "63d22c85345d90000849afd4",
+    "5ee8c4c1e228fc0007d40d8d",
+    "61433a01ef9dd10007031308",
+    "645910866b402c0009c0b5f3",
+    "60f810e252a9f9000707df6b",
+    "63d22f7baa24ea0008ded5d6",
+    "63d0e286b000490008a5006c",
+    "61a62bd673f9af0007fcaa5a",
+    "60e8390275da360007fb93a7",
+    "634a973077ab92000901c0d8",
+    "64ac20823f6c950008e8e9d6",
+    "6189108f587f4f0007a6b7d9",
+    "60e8458a25e901000796172a",
+    "60f5456a80b08100072e1465",
+    "63d0e6b5b567420008fb97fe",
+    "60f8121a52a9f9000707df6d",
+    "64b83a250a73b7000841c2c7",
+    "623862e50359940009c601d7",
+    "63da14bafa95820008db619f",
+    "61b1c5640785f30007a5773f",
+    "60f0350d6480b10007ef9147",
+    "612f61d3097a3e000705b036",
+    "60e8440375da360007fb93dc",
+    "625edd2ddf388e0008510b61",
+    "63d22a66fa95820008db5d05",
+    "64f76bbab04c850008f013c3",
+    "634a973f5df66000085b6d9a",
+    "621e35e5d2e6ea0008f923de",
+    "63d0d3971367b10008fd2573",
+    "670543e40ebf940008a4815c",
+    "634a9709d11b230008d132f9",
+    "63d23e7c1367b10008fd2592",
+    "640b00d6af1d3c0009c3275a",
+    "63da0d38fa95820008db619e",
+    "5fa08a838b34940008e2aa29",
+    "62a077e2762f99000896f5e3",
+    "60f813b452a9f9000707df6e",
+    "60e83cfe75da360007fb93bf",
+    "60e83d83d194e400073e019f",
+    "60a63137302a140007335a7a",
+    "631eeb3c4cafa4000836a0ae",
+    "60f036a952a9f9000707da3b",
+    "63c96f6c345d90000849af59",
+    "60e843b925e9010007961728",
+    "63d2208afa95820008db5d04",
+    "62a9b3e529f4320008ba9161",
+    "61a0cf143c84ba000700063c",
+    "60e8431975da360007fb93c9",
+    "60e84204d194e400073e01b2",
+    "610031eb2398df000728fc54",
+    "60f8144e52a9f9000707df6f",
+    "63aad970aa24ea0008decf6b",
+    "60f8375352a9f9000707df8a",
+    "63ce8a07345d90000849af88",
+    "674831e8c850510009f7728c",
+    "614852bc47bd0f0007436da8",
+    "63d2263b345d90000849afd3",
+    "63da18c0fa95820008db61a1",
+    "63c96754fa95820008db5c9b",
+    "60f8149c52a9f9000707df71",
+    "60f0349280b08100072e10bf",
+    "614208a21a69ce00071df1e4",
+    "615c340a09446800078ae5e7",
+    "602bcfb8ef11870007d6ac69",
+    "60a630c7302a140007335a79",
+    "61485316e93d850007983c46",
+    "63dbabd4b000490008a505ab",
+    "625edde75e45680008a0f59e",
+    "60f543636480b10007ef94be",
+    "60e8475425e901000796172e",
+    "60f837e632a5440007988d62",
+    "61642a682367aa00089982ae",
+    "63d0e0f0345d90000849afc0",
+    "64d2374e70e05d00093a58da",
+    "625ede1b92216500083e8e49",
+    "64d2415b37acad00088ceece",
+    "63d23ea3345d90000849afe0",
+    "60f836dc80b08100072e15b0",
+    "61e81936718f7c00071cb57e",
+    "6392fc0370d1b700089960c9",
+    "63ce8bedaa24ea0008ded59e",
+    "60a24e261d401c00074e3b9c",
+    "63d22ea8aa24ea0008ded5d4",
+    "61376b631a69ce00071def64",
+    "623390768d486f000826986d",
+    "60e8467225e901000796172b",
+    "63ceb029b000490008a50058",
+    "60f0355c6480b10007ef9148",
+    "631eebe54cafa4000836a0af",
+    "60f5452452a9f9000707de02",
+    "614852d2e93d850007983c44",
+    "62837480c72aa90008e7768f",
+    "63d22b59b000490008a5008e",
+    "6516bd5abf205500080f37b1",
+    "639841abd9fdab0009696459",
+    "63d23ab5fa95820008db5d0a",
+    "63d0cfde345d90000849afbc",
+    "64009c1bc26eee0009b29a28",
+    "61891193541c180007b61404",
+    "63da0b37b000490008a50523",
+    "5fcf24bb8b10d40007b5b01d",
+    "654b838b3e8e4c0008ebd457",
+    "60f7e26452a9f9000707df5a",
+    "6392fb75d9fdab0009696407",
+    "63ce892aaa24ea0008ded59c",
+    "63ceb367b567420008fb97f1",
+    "61642a975b92d70007ba0e0a",
+    "60f0399f80b08100072e10c5",
+    "63c6c8ffaa24ea0008ded52f",
+    "63d0d25ab000490008a50068",
+    "63da0bfefa95820008db619d",
+    "657b551207d2de00087f27b6",
+    "60e8418025e9010007961716",
+    "60e8435275da360007fb93ca",
+    "6148533ce93d850007983c47",
+    "63d0d0efaa24ea0008ded5b9",
+    "64107032af1d3c0009c327d5",
+    "63594062f3b1f30008c4ff73",
+    "64943783b35e770008516302",
+    "60f0372152a9f9000707da3c",
+    "60e841f375da360007fb93c7"
+  ]
+}
